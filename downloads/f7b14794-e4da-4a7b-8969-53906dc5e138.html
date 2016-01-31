@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta content="IE=10" http-equiv="X-UA-Compatible"/>
+    <meta charset="utf-8"/>
+    <title>Faculty Directory | Computer Science and Engineering at The University of Texas at Arlington</title>
+    <meta content="Faculty Directory in the Department of Computer Science and Engineering at The University of Texas at Arlington" name="description"/>
+    
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport"/><link href="_css/screen.css" media="screen" rel="stylesheet"/> <link href="_css/print.css" media="print" rel="stylesheet"/>
+<script src="_js/menu.js" type="text/javascript"></script>
+<noscript>
+<link href="_css/noscript.css" rel="stylesheet"/>
+</noscript>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js" type="text/javascript"></script>
+<script src="http://malsup.github.io/jquery.cycle2.js" type="text/javascript"></script>
+<script src="http://malsup.github.io/jquery.cycle2.tile.js" type="text/javascript"></script>
+    <script language="javascript" type="text/javascript">
+function showHide(shID) {
+   if (document.getElementById(shID)) {
+      if (document.getElementById(shID+'-show').style.display !== 'none') {
+         document.getElementById(shID+'-show').style.display = 'none';
+         document.getElementById(shID).style.display = 'block';
+      }
+      else {
+         document.getElementById(shID+'-show').style.display = 'inline';
+         document.getElementById(shID).style.display = 'none';
+      }
+   }
+}
+
+function newDoc(page) 
+{
+
+    var url = location.href
+    if(url.indexOf("devel") != -1)
+    {
+        var cookie = document.cookie;
+        if(cookie.indexOf("list") != -1)
+        {
+            page = page + "-list"
+            window.location.assign("http://cse-devel.uta.edu" + page + ".php");
+        
+        }
+        else{
+        window.location.assign("http://cse-devel.uta.edu" + page + ".php");
+        }
+    }else{
+    
+        var cookie = document.cookie;
+        if(cookie.indexOf("list") != -1)
+        {
+            page = page + "-list"
+            window.location.assign("http://cse.uta.edu" + page + ".php");
+        
+        }
+        else{
+        window.location.assign("http://cse.uta.edu" + page + ".php");
+        }
+    
+    } 
+}
+
+function sortOption(page) 
+{
+
+    var url = location.href
+    if(url.indexOf("devel") != -1)
+    {
+        var cookie = document.cookie;
+        if(cookie.indexOf("list") != -1)
+        {
+            //page = page + "-list"
+            window.location.assign("http://cse-devel.uta.edu" + page );
+        
+        }
+        else{
+        window.location.assign("http://cse-devel.uta.edu" + page );
+        }
+    }else{
+    
+        var cookie = document.cookie;
+        if(cookie.indexOf("list") != -1)
+        {
+            //page = page + "-list"
+            window.location.assign("http://cse.uta.edu" + page );
+        
+        }
+        else{
+        window.location.assign("http://cse.uta.edu" + page );
+        }
+    
+    } 
+}
+
+</script>
+<style type="text/css">
+.more {
+      display: none;
+}
+</style>
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-32021828-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</head>
+<body>
+    <p class="skip"><a accesskey="C" href="#content-area">Skip to content</a>. <a accesskey="N" href="#nav">Skip to main navigation</a>.</p>
+    <div id="wrapper">
+        <header id="page-header">
+            <div id="desktop-header"><a href="http://www.uta.edu/uta/"><img alt="The University of Texas at Arlington" height="48" id="UTA-logo" src="_images/elements/uta.png" width="327"/></a> <a href="http://www.uta.edu/engineering/"><img alt="College of Engineering" height="48" id="COE-logo" src="_images/elements/college_of_engineering.png" width="311"/></a> <a href="index.php"><img alt="Department of Computer Science and Engineering" id="logo" src="_images/elements/department_of_computer_science_and_engineering.png"/></a></div>
+<div id="mobile-header"><!-- It is important that some images have no size attributes for rendering on different screen sizes -->
+<div id="mobile-uta-logo"><a href="/uta/index.php"><img alt="The University of Texas at Arlington" class="UTA-logo-m" src="_images/elements/mobile-header.png"/></a><br/><a href="index.php"><img alt="Department of Computer Science and Engineering" class="UTA-logo-m" src="_images/elements/mobile-department-header.png"/></a></div>
+<div id="mobile-menu"><a href="#_top" onclick="toggle('navcontainer');" onkeypress="toggle('navcontainer');"><img alt="Menu" src="_images/elements/menu.png"/></a></div>
+</div>
+<img alt="Department of Bioengineering at The University of Texas at Arlington" class="print-only" src="_images/elements/print-header.png"/>
+        </header>
+    <div id="top-line"></div>
+    <div id="content-wrapper">
+        <nav id="navcontainer">
+            <ul id="nav">
+<li><a href="index.php">Home</a></li>
+<li><a href="news-highlights/index.php">News</a></li>
+<li><a class="with-submenu" href="#_top" id="admission-link" onclick="togglemenu('submenu-admission','admission-link');" onkeypress="togglemenu('submenu-admission','admission-link');">Future Students</a>
+<ul class="submenu" id="submenu-admission">
+<li><a href="future-students/under-app.php">Undergraduate Applicants</a></li>
+<li><a href="future-students/grad-app.php">Graduate Applicants</a></li>
+</ul>
+</li>
+<li><a class="with-submenu" href="#_top" id="current-link" onclick="togglemenu('submenu-current','current-link');" onkeypress="togglemenu('submenu-current','current-link');">Current Students</a>
+<ul class="submenu" id="submenu-current">
+<li><a href="current-students/undergraduate-studies.php">Undergraduate Study</a></li>
+<li><a href="current-students/graduate-studies.php">Graduate Study</a></li>
+<li><a href="current-students/courses-catalog-schedules.php">Courses, Catalog &amp; Schedules</a></li>
+<li><a href="current-students/student-clubs.php">Student Clubs/Organizations</a></li>
+<li><a href="current-students/student-services.php">Student Services</a></li>
+</ul>
+</li>
+<li><a class="with-submenu" href="#_top" id="people-link" onclick="togglemenu('submenu-people','people-link');" onkeypress="togglemenu('submenu-people','people-link');">People</a>
+<ul class="submenu" id="submenu-people">
+<li><a href="faculty-directory.php">Faculty Directory</a></li>
+<li><a href="staff-directory.php">Staff Directory</a></li>
+<li><a href="current-students/phd-students/directory-grid.php">PhD Student Directory</a></li>
+</ul>
+</li>
+<li><a class="with-submenu" href="#_top" id="research-link" onclick="togglemenu('submenu-research','research-link');" onkeypress="togglemenu('submenu-research','research-link');">Research</a>
+<ul class="submenu" id="submenu-research">
+<li><a href="research/centers-labs.php">Centers &amp; Labs</a></li>
+<li><a href="research/research-areas.php">Research Areas</a></li>
+<li><a href="research/technical-reports.php">Technical Reports</a></li>
+</ul>
+</li>
+<li><a class="with-submenu" href="#_top" id="seminars-link" onclick="togglemenu('submenu-seminars','seminars-link');" onkeypress="togglemenu('submenu-seminars','seminars-link');">Seminars</a>
+<ul class="submenu" id="submenu-seminars">
+<li><a href="talks/invited_talks.php">Invited Talks</a></li>
+<li><a href="talks/ms-defenses.php">MS Defenses</a></li>
+<li><a href="talks/phd-defenses.php">PhD Defenses</a></li>
+</ul>
+</li>
+<li><a href="staff-directory.php">Contacts</a></li>
+</ul>
+            
+            
+            <div id="menu-bottom-extra">
+<div id="talks-and-defenses">
+<p><strong>Invited Talks</strong></p><img src="/talks/images/majewicz.png" style="margin-left:10px;"  /><p><b>Fri 05/01</b> 1:30pm - 3:00pm<br /> Ann Majewicz, PhD - <i>Designing Human-in-the-Loop Systems for Surgical  Training and Intervention - <b>ERB 103</b></i> <img id="refreshment" src="/talks/images/pizza.jpeg" /></p><hr /><p><a href="/talks/invited_talks.php">Details and More Talks ></a></p><hr /></div>
+<p><strong>Computer Science<br/>and Engineering</strong></p>
+<p><span class="underline" data-mce-mark="1">Administration</span><br/> Dr. Lynn Peterson<br/> Interim Chair, Associate Dean<br/> 817-272-3605 <br/> <a href="mailto:peterson@uta.edu">peterson@uta.edu</a><br/><br/>Dr. Ramez Elmasri<br/> Associate Chair<br/> 817-272-2337 <br/> <a href="mailto:chuong@uta.edu">elmasri@uta.edu</a></p>
+<p><span class="underline">Deliveries</span><br/> Engineering Research Building<br/> Room 640<br/>500 UTA Blvd.<br/> Arlington, TX 76010<br/><br/><span class="underline">Mailing Address</span><br/> Box 19015<br/> Arlington, TX 76019<br/><br/> <span class="underline">Phone/Fax/Email</span><br/> Phone: 817-272-3785<br/> Fax: 817-272-3784<br/><br/> <span class="underline">Visitors</span><br/><a href="http://www.uta.edu/maps/index.php?id=23">Map</a><br/><a href="http://www.uta.edu/pats/parking/guest-parking.php">Parking</a> <br/><a href="http://www.uta.edu/admissions/visit/tours-virtual/">Virtual Tour</a></p>
+</div>
+        </nav>
+        <div id="content-area">
+            
+            <section>
+                <article>
+                    <header><h1>Faculty Directory </h1></header>
+                    <form style="margin-right: 60px;">
+<p align="right"><b>Filter </b><select id="setit" name="test" onchange="newDoc(this.value)" size="1" style="color: #0000ff;">
+<option value="">Select One</option>
+<option value="/faculty-directory">All</option>
+<option value="/faculty-directory-tenure">Tenure Track</option>
+<option value="/faculty-directory-non-tenure">Non-Tenure Track</option>
+<option value="/faculty-directory-administration">Administration</option>
+</select></p>
+</form>
+<div style="float: right;">
+<ul id="directory-menu">
+<li><a href="faculty-directory-list.php" onclick="document.cookie='view=list';">List View</a></li>
+</ul>
+</div>
+<br/><br/><br/> 
+<div class="faculty-box"><img alt="Ishfaq Ahmad" src="/_images/faculty/ahmad.jpg" title="Ishfaq Ahmad" border="0" /><p><strong>Ishfaq Ahmad</strong><br />Professor<br /> <a href="http://www.uta.edu/profiles/ishfaq-ahmad">Profile</a> | <a href="http://ranger.uta.edu/~iahmad/">Website</a><br />   <span>iahmad@uta.edu</span><br /><strong>Office :</strong> ERB 527<br /><strong>Ph :</strong> 817-272-1526<br /><strong>Hrs :</strong> TR: 1:00 - 2:00p </p></div><div class="faculty-box"><img alt="Vassilis Athitsos" src="/_images/faculty/vassilis.jpg" title="Vassilis Athitsos" border="0" /><p><strong>Vassilis Athitsos</strong><br />Associate Professor<br /> <a href="http://www.uta.edu/profiles/vassilis-athitsos">Profile</a> | <a href="http://vlm1.uta.edu/~athitsos/">Website</a><br />   <span>athitsos@uta.edu</span><br /><strong>Office :</strong> ERB 623<br /><strong>Ph :</strong> 817-272-0155<br /><strong>Hrs :</strong> TR: 11:00 - 12:30p </p></div><div class="faculty-box"><img alt="Linda Barasch" src="/_images/faculty/barasch.jpg" title="Linda Barasch" border="0" /><p><strong>Linda Barasch</strong><br />Senior Lecturer and Lead UG Advisor<br /> <a href="http://www.uta.edu/profiles/linda-barasch">Profile</a> | <a href="http://ranger.uta.edu/~barasch/">Website</a><br />   <span>barasch@uta.edu</span><br /><strong>Office :</strong> ERB 643<br /><strong>Ph :</strong> 817-272-3638<br /><strong>Hrs :</strong> T: 1:00 - 3:00 and W: 10:00 - 12:00p </p></div><div class="faculty-box"><img alt="Eric Becker" src="/_images/faculty/becker.jpg" title="Eric Becker" border="0" /><p><strong>Eric Becker</strong><br />Senior Lecturer and Undergraduate Advisor<br /> <a href="http://www.uta.edu/profiles/eric-becker">Profile</a> | <a href="http://ranger.uta.edu/~becker/">Website</a><br />   <span>becker@uta.edu</span><br /><strong>Office :</strong> ERB 642<br /><strong>Ph :</strong> 817-272-5128<br /><strong>Hrs :</strong> T: 3:30 - 4:50p and R: 12:30 - 1:50p </p></div><div class="faculty-box"><img alt="Darin Brezeale" src="/_images/faculty/brezeale.jpg" title="Darin Brezeale" border="0" /><p><strong>Darin Brezeale</strong><br />Senior Lecturer<br /> <a href="http://www.uta.edu/profiles/darin-brezeale">Profile</a> | <a href="http://omega.uta.edu/~darin/">Website</a><br />   <span>darin.brezeale@uta.edu</span><br /><strong>Office :</strong> ERB 648<br /><strong>Ph :</strong> N/A<br /><strong>Hrs :</strong> TR 1:30 - 2:30p </p></div><div class="faculty-box"><img alt="Bill Carroll" src="/_images/faculty/carroll.jpg" title="Bill Carroll" border="0" /><p><strong>Bill Carroll</strong><br />Professor<br /> <a href="http://www.uta.edu/profiles/bill-carroll">Profile</a> | <a href="http://ranger.uta.edu/~carroll/">Website</a><br />   <span>carroll@uta.edu</span><br /><strong>Office :</strong> ERB 521<br /><strong>Ph :</strong> 817-272-3787<br /><strong>Hrs :</strong> MT: 4:00-6:00pm and W: 11:00 - 1:00pm </p></div><div class="faculty-box"><img alt="Sharma Chakravarthy" src="/_images/faculty/chakravarthy.jpg" title="Sharma Chakravarthy" border="0" /><p><strong>Sharma Chakravarthy</strong><br />Professor<br /> <a href="http://www.uta.edu/profiles/upendranath-chakravarthy">Profile</a> | <a href="http://itlab.uta.edu/sharma/">Website</a><br />   <span>sharmac@uta.edu</span><br /><strong>Office :</strong> ERB 632<br /><strong>Ph :</strong> 817-272-2082<br /><strong>Hrs :</strong> TR: 2:00 - 3:30p </p></div><div class="faculty-box"><img alt="Hao Che" src="/_images/faculty/che.jpg" title="Hao Che" border="0" /><p><strong>Hao Che</strong><br />Associate Professor<br /> <a href="http://www.uta.edu/profiles/hao-che">Profile</a> | <a href="http://crystal.uta.edu/~hche/">Website</a><br />   <span>hche@uta.edu</span><br /><strong>Office :</strong> ERB 536<br /><strong>Ph :</strong> 817-272-3631<br /><strong>Hrs :</strong> MW: 2:00 - 4:00p </p></div><div class="faculty-box"><img alt="Christoph Csallner" src="/_images/faculty/christoph.jpg" title="Christoph Csallner" border="0" /><p><strong>Christoph Csallner</strong><br />Associate Professor<br /> <a href="http://www.uta.edu/profiles/christoph-csallner">Profile</a> | <a href="http://ranger.uta.edu/~csallner">Website</a><br />   <span>csallner@uta.edu</span><br /><strong>Office :</strong> ERB 554<br /><strong>Ph :</strong> 817-272-3334<br /><strong>Hrs :</strong> MW: 2:45 - 3:45p </p></div><div class="faculty-box"><img alt="Gautam Das" src="/_images/faculty/gdas.jpg" title="Gautam Das" border="0" /><p><strong>Gautam Das</strong><br />Professor<br /> <a href="http://www.uta.edu/profiles/gautam-das">Profile</a> | <a href="http://ranger.uta.edu/~gdas">Website</a><br />   <span>gdas@uta.edu</span><br /><strong>Office :</strong> ERB 626<br /><strong>Ph :</strong> 817-272-7595<br /><strong>Hrs :</strong> TR: 2:30-3:30p </p></div><div class="faculty-box"><img alt="Chris Ding" src="/_images/faculty/ding.jpg" title="Chris Ding" border="0" /><p><strong>Chris Ding</strong><br />Professor<br /> <a href="http://www.uta.edu/profiles/chris-ding">Profile</a> | <a href="http://ranger.uta.edu/~chqding">Website</a><br />   <span>chqding@uta.edu</span><br /><strong>Office :</strong> ERB 529<br /><strong>Ph :</strong> 817-272-7041<br /><strong>Hrs :</strong> TR: 3:00 - 5:00p </p></div><div class="faculty-box"><img alt="Ramez Elmasri" src="/_images/faculty/elmasri.jpg" title="Ramez Elmasri" border="0" /><p><strong>Ramez Elmasri</strong><br />Professor, Graduate Advisor, and Associate Chair<br /> <a href="http://www.uta.edu/profiles/ramez-elmasri">Profile</a> | <a href="http://ranger.uta.edu/~elmasri/">Website</a><br />   <span>elmasri@uta.edu</span><br /><strong>Office :</strong> ERB 634/654<br /><strong>Ph :</strong> 817-272-2348<br /><strong>Hrs :</strong> by appointment </p></div><div class="faculty-box"><img alt="Leonidas Fegaras" src="/_images/faculty/fegaras.jpg" title="Leonidas Fegaras" border="0" /><p><strong>Leonidas Fegaras</strong><br />Associate Professor and Graduate Advisor<br /> <a href="http://www.uta.edu/profiles/leonidas-fegaras">Profile</a> | <a href="http://lambda.uta.edu">Website</a><br />   <span>fegaras@uta.edu</span><br /><strong>Office :</strong> ERB 653<br /><strong>Ph :</strong> 817-272-3629<br /><strong>Hrs :</strong> TR: 4:00 - 5:30p </p></div><div class="faculty-box"><img alt="Jean Gao" src="/_images/faculty/gao.jpg" title="Jean Gao" border="0" /><p><strong>Jean Gao</strong><br />Professor<br /> <a href="http://www.uta.edu/profiles/jean-gao">Profile</a> | <a href="http://crystal.uta.edu/~gao/">Website</a><br />   <span>gao@uta.edu</span><br /><strong>Office :</strong> ERB 538<br /><strong>Ph :</strong> 817-272-3628<br /><strong>Hrs :</strong> TR: 12:00 - 1:00p </p></div><div class="faculty-box"><img alt="Heng Huang" src="/_images/faculty/heng_uta.jpg" title="Heng Huang" border="0" /><p><strong>Heng Huang</strong><br />Associate Professor<br /> <a href="http://www.uta.edu/profiles/heng-huang">Profile</a> | <a href="http://ranger.uta.edu/~heng/">Website</a><br />   <span>heng@uta.edu</span><br /><strong>Office :</strong> ERB 533<br /><strong>Ph :</strong> 817-272-7287<br /><strong>Hrs :</strong> TR: 2:00-4:00p </p></div><div class="faculty-box"><img alt="Junzhou Huang" src="/_images/faculty/jzhuang.jpg" title="Junzhou Huang" border="0" /><p><strong>Junzhou Huang</strong><br />Assistant Professor<br /> <a href="http://www.uta.edu/profiles/junzhou-huang">Profile</a> | <a href="http://ranger.uta.edu/~huang/">Website</a><br />   <span>jzhuang@uta.edu</span><br /><strong>Office :</strong> ERB 650<br /><strong>Ph :</strong> 29596<br /><strong>Hrs :</strong> MW: 1:00 - 3:00p </p></div><div class="faculty-box"><img alt="Manfred Huber" src="/_images/faculty/huber.jpg" title="Manfred Huber" border="0" /><p><strong>Manfred Huber</strong><br />Associate Professor<br /> <a href="http://www.uta.edu/profiles/manfred-huber">Profile</a> | <a href="http://ranger.uta.edu/~huber/">Website</a><br />   <span>huber@uta.edu</span><br /><strong>Office :</strong> ERB 522<br /><strong>Ph :</strong> 817-272-2345<br /><strong>Hrs :</strong> TRF: 11:00 - 12:00p </p></div><div class="faculty-box"><img alt="Taylor Johnson" src="/_images/faculty/johnson.jpg" title="Taylor Johnson" border="0" /><p><strong>Taylor Johnson</strong><br />Assistant Professor<br /> <a href="http://www.uta.edu/profiles/taylor-johnson">Profile</a> | <a href="http://www.taylortjohnson.com/">Website</a><br />   <span>taylor.johnson@uta.edu</span><br /><strong>Office :</strong> ERB 559<br /><strong>Ph :</strong> 817-272-3610<br /><strong>Hrs :</strong> TR: 9:30-10:30a </p></div><div class="faculty-box"><img alt="Farhad Kamangar" src="/_images/faculty/kamangar.jpg" title="Farhad Kamangar" border="0" /><p><strong>Farhad Kamangar</strong><br />Professor<br /> <a href="http://www.uta.edu/profiles/farhad-kamangar">Profile</a> | <a href="http://ranger.uta.edu/~kamangar/">Website</a><br />   <span>kamangar@uta.edu</span><br /><strong>Office :</strong> ERB 524<br /><strong>Ph :</strong> 817-272-3617<br /><strong>Hrs :</strong> TR: 5:00 - 7:00p </p></div><div class="faculty-box"><img alt="Bahram Khalili" src="/_images/faculty/khalili.jpg" title="Bahram Khalili" border="0" /><p><strong>Bahram Khalili</strong><br />Senior Lecturer and Graduate Advisor<br /> <a href="http://www.uta.edu/profiles/bahra-khalili-najafabadi">Profile</a> | <a href="http://ranger.uta.edu/~khalili/">Website</a><br />   <span>khalili@uta.edu</span><br /><strong>Office :</strong> ERB 629<br /><strong>Ph :</strong> 817-272-5407<br /><strong>Hrs :</strong> TR: 11:00 - 12:30p </p></div><div class="faculty-box"><img alt="David Kung" src="/_images/faculty/kung.jpg" title="David Kung" border="0" /><p><strong>David Kung</strong><br />Professor and Director of the UG Software Engineering Program<br /> <a href="http://www.uta.edu/profiles/david-kung">Profile</a> | <a href="http://ranger.uta.edu/~kung/kung.html">Website</a><br />   <span>kung@uta.edu</span><br /><strong>Office :</strong> ERB 532<br /><strong>Ph :</strong> 817-272-3627<br /><strong>Hrs :</strong> TR: 2:30 - 3:30p </p></div><div class="faculty-box"><img alt="Jeff (Yu) Lei" src="/_images/faculty/lei.jpg" title="Jeff (Yu) Lei" border="0" /><p><strong>Jeff (Yu) Lei</strong><br />Professor<br /> <a href="http://www.uta.edu/profiles/yu-lei">Profile</a> | <a href="http://ranger.uta.edu/~ylei/">Website</a><br />   <span>ylei@cse.uta.edu</span><br /><strong>Office :</strong> ERB 531<br /><strong>Ph :</strong> 817-272-2341<br /><strong>Hrs :</strong> TR 10:00 - 11:00a </p></div><div class="faculty-box"><img alt="David Levine" src="/_images/faculty/levine.jpg" title="David Levine" border="0" /><p><strong>David Levine</strong><br />Senior Lecturer<br /> <a href="http://www.uta.edu/profiles/david-levine">Profile</a> | <a href="http://crystal.uta.edu/~levine/">Website</a><br />   <span>levine@cse.uta.edu</span><br /><strong>Office :</strong> ERB 525<br /><strong>Ph :</strong> 817-272-2349<br /><strong>Hrs :</strong> MW: 2:30-4:00, 10PM and T: 3:00-5:00p </p></div><div class="faculty-box"><img alt="Chengkai Li" src="/_images/faculty/chengkai.jpg" title="Chengkai Li" border="0" /><p><strong>Chengkai Li</strong><br />Associate Professor<br /> <a href="http://www.uta.edu/profiles/chengkai-li">Profile</a> | <a href="http://ranger.uta.edu/~cli">Website</a><br />   <span>cli@uta.edu</span><br /><strong>Office :</strong> ERB 628<br /><strong>Ph :</strong> 817-272-0162<br /><strong>Hrs :</strong> R: 10:30 - 12:30p </p></div><div class="faculty-box"><img alt="Donggang Liu" src="/_images/faculty/dliu.jpg" title="Donggang Liu" border="0" /><p><strong>Donggang Liu</strong><br />Associate Professor<br /> <a href="http://www.uta.edu/profiles/donggang-liu">Profile</a> | <a href="http://ranger.uta.edu/~dliu">Website</a><br />   <span>dliu@uta.edu</span><br /><strong>Office :</strong> ERB 555<br /><strong>Ph :</strong> 817-272-0741<br /><strong>Hrs :</strong>  </p></div><div class="faculty-box"><img alt="Yonghe Liu" src="/_images/faculty/liu.jpg" title="Yonghe Liu" border="0" /><p><strong>Yonghe Liu</strong><br />Associate Professor<br /> <a href="http://www.uta.edu/profiles/yonghe-liu">Profile</a> | <a href="http://ranger.uta.edu/~yonghe/">Website</a><br />   <span>yonghe@uta.edu</span><br /><strong>Office :</strong> ERB 537<br /><strong>Ph :</strong> 817-272-7606<br /><strong>Hrs :</strong> TR: 11:00 - 12:00p </p></div><div class="faculty-box"><img alt="Fillia Makedon" src="/_images/faculty/makedon.jpg" title="Fillia Makedon" border="0" /><p><strong>Fillia Makedon</strong><br />Professor<br /> <a href="http://www.uta.edu/profiles/fillia-makedon">Profile</a> | <a href="http://heracleia.uta.edu/~makedon/">Website</a><br />   <span>makedon@uta.edu</span><br /><strong>Office :</strong> ERB 624<br /><strong>Ph :</strong> 817-272-7405<br /><strong>Hrs :</strong> TR: 4:00- 5:00p </p></div><div class="faculty-box"><img alt="Gian Luca Mariottini" src="/_images/faculty/Mariottini.png" title="Gian Luca Mariottini" border="0" /><p><strong>Gian Luca Mariottini</strong><br />Assistant Professor<br /> <a href="http://www.uta.edu/profiles/gian-luca-mariottini">Profile</a> | <a href="http://ranger.uta.edu/~gianluca">Website</a><br />   <span>gianluca@uta.edu</span><br /><strong>Office :</strong> ERB 649<br /><strong>Ph :</strong> 817-272-0770<br /><strong>Hrs :</strong> MW: 2:00-3:30p </p></div><div class="faculty-box"><img alt="Chris McMurrough" src="/_images/faculty/mcmurrough.jpg" title="Chris McMurrough" border="0" /><p><strong>Chris McMurrough</strong><br />Senior Lecturer<br /> <a href="http://www.uta.edu/profiles/christopher-mcmurrough">Profile</a> | <a href="http://www.uta.edu/profiles/christopher-mcmurrough">Website</a><br />   <span>mcmurrough@uta.edu</span><br /><strong>Office :</strong> ERB 511<br /><strong>Ph :</strong> 817-272-0134<br /><strong>Hrs :</strong> TR: 12:00 - 1:30p </p></div><div class="faculty-box"><img alt="Mike O&#039;Dell" src="/_images/faculty/odell.jpg" title="Mike O&#039;Dell" border="0" /><p><strong>Mike O&#039;Dell</strong><br />Senior Lecturer<br /> <a href="http://www.uta.edu/profiles/james-odell">Profile</a> | <a href="http://ranger.uta.edu/~odell/">Website</a><br />   <span>odell@uta.edu</span><br /><strong>Office :</strong> ERB 631<br /><strong>Ph :</strong> 817-272-3988<br /><strong>Hrs :</strong> TR: 11:00 - 12:30p </p></div><div class="faculty-box"><img alt="Lynn Peterson" src="/_images/faculty/peterson.jpg" title="Lynn Peterson" border="0" /><p><strong>Lynn Peterson</strong><br />Professor and Interim Chair<br /> <a href="http://www.uta.edu/profiles/lynn-peterson">Profile</a> | <a href="http://ranger.uta.edu/~peterson/peterson.html">Website</a><br />   <span>peterson@uta.edu</span><br /><strong>Office :</strong> ERB 639<br /><strong>Ph :</strong> 817-272-3567<br /><strong>Hrs :</strong> By Appointment Only </p></div><div class="faculty-box"><img alt="John Robb" src="/_images/faculty/jrobb.jpg" title="John Robb" border="0" /><p><strong>John Robb</strong><br />Senior Lecturer<br /> <a href="http://www.uta.edu/profiles/john-robb">Profile</a> | <a href="http://www.uta.edu/profiles/john-robb">Website</a><br />   <span>john.robb@uta.edu</span><br /><strong>Office :</strong> ERB 646<br /><strong>Ph :</strong> 817-272-7457<br /><strong>Hrs :</strong> TR: 11:00 - 12:00p </p></div><div class="faculty-box"><img alt="Alexandra Stefan" src="/_images/faculty/stefan.jpg" title="Alexandra Stefan" border="0" /><p><strong>Alexandra Stefan</strong><br />Senior Lecturer and Undergraduate Advisor<br /> <a href="http://www.uta.edu/profiles/alexandra-stefan">Profile</a> | <a href="http://vlm1.uta.edu/~alex/">Website</a><br />   <span>astefan@uta.edu</span><br /><strong>Office :</strong> ERB 644<br /><strong>Ph :</strong> 817-272-7229<br /><strong>Hrs :</strong> MW 10:30 - 12:00p </p></div><div class="faculty-box"><img alt="Carter Tiernan" src="/_images/faculty/tiernan.jpg" title="Carter Tiernan" border="0" /><p><strong>Carter Tiernan</strong><br />Assistant Dean, Senior Lecturer, and Director of Outreach<br /> <a href="http://www.uta.edu/profiles/janice-tiernan">Profile</a> | <a href="http://ranger.uta.edu/~tiernan/">Website</a><br />   <span>tiernan@uta.edu</span><br /><strong>Office :</strong> NH 620<br /><strong>Ph :</strong> 817-272-0113<br /><strong>Hrs :</strong> MTR: 2:00 - 4:00p </p></div><div class="faculty-box"><img alt="Roger Walker" src="/_images/faculty/walker.jpg" title="Roger Walker" border="0" /><p><strong>Roger Walker</strong><br />Professor<br /> <a href="http://www.uta.edu/profiles/roger-walker">Profile</a> | <a href="http://ranger.uta.edu/~walker/">Website</a><br />   <span>rwalker@uta.edu</span><br /><strong>Office :</strong> ERB 625<br /><strong>Ph :</strong> 817-272-2203<br /><strong>Hrs :</strong> TR: 11:00-12:00 and 2:00 - 3:00p </p></div><div class="faculty-box"><img alt="Bob Weems" src="/_images/faculty/weems.jpg" title="Bob Weems" border="0" /><p><strong>Bob Weems</strong><br />Associate Professor and Director of the UG Computer Science Program<br /> <a href="http://www.uta.edu/profiles/bob-weems">Profile</a> | <a href="http://ranger.uta.edu/~weems/">Website</a><br />   <span>weems@uta.edu</span><br /><strong>Office :</strong> ERB 627<br /><strong>Ph :</strong> 817-272-2337<br /><strong>Hrs :</strong> T: 11:15-1:15p and R: 1:00 - 3:00p </p></div><div class="faculty-box"><img alt="Matthew Wright" src="/_images/faculty/wright.jpg" title="Matthew Wright" border="0" /><p><strong>Matthew Wright</strong><br />Associate Professor<br /> <a href="http://www.uta.edu/profiles/matthew-wright">Profile</a> | <a href="http://ranger.uta.edu/~mwright/">Website</a><br />   <span>mwright@uta.edu</span><br /><strong>Office :</strong> ERB 528<br /><strong>Ph :</strong> 817-272-0906<br /><strong>Hrs :</strong> MW: 1:00 - 2:00p </p></div><div class="faculty-box"><img alt="Gergely Zaruba" src="/_images/faculty/zaruba.jpg" title="Gergely Zaruba" border="0" /><p><strong>Gergely Zaruba</strong><br />Professor and Director of the UG Computer Engineering Program<br /> <a href="http://www.uta.edu/profiles/gergely-zaruba">Profile</a> | <a href="http://crystal.uta.edu/~zaruba/">Website</a><br />   <span>zaruba@uta.edu</span><br /><strong>Office :</strong> ERB 523<br /><strong>Ph :</strong> 817-272-3602<br /><strong>Hrs :</strong> R: 2:00 - 3:00p </p></div><h3 style="clear: left;">Research Faculty</h3><br /><div class="faculty-box"><img alt="Feiping Nie" src="/_images/faculty/feiping.png" title="Feiping Nie" border="0" /><p><strong>Feiping Nie</strong><br />Research Assistant Professor<br /> <a href="http://www.uta.edu/profiles/Feiping-Nie">Profile</a> | <a href="http://sites.google.com/site/feipingnie/">Website</a><br />   <span>feiping@uta.edu</span><br /><strong>Office :</strong> ERB 530<br /><strong>Ph :</strong> 817-272-9236 </p></div><h3 style="clear: left;">Adjunct Faculty</h3><br /><div class="faculty-box"><img alt="Trevor Bakker" src="/_images/faculty/bakker.jpg" title="Trevor Bakker" border="0" /><p><strong>Trevor Bakker</strong><br /> Adjunct Faculty<br /><a href="https://www.uta.edu/profiles/trevor-bakker">Faculty Profile</a><br /><span> trevor.bakker@uta.edu</span><br /><strong>Office :</strong> ERB 321<br /><strong>Ph :</strong> <br /><strong>Hrs :</strong> MW: 6:30-6:50p and 8:30-9:15p </p></div><div class="faculty-box"><img alt="Yuanzhe Cai" src="/_images/faculty/empty.jpg" title="Yuanzhe Cai" border="0" /><p><strong>Yuanzhe Cai</strong><br />Adjunct Faculty<br /><a href="https://www.uta.edu/profiles/yuanzhe-cai">Faculty Profile</a><br /><span>yuanzhe.cai@mavs.uta.edu</span><br /><strong>Office :</strong> ERB 502<br /><strong>Ph :</strong> <br /><strong>Hrs :</strong> MW: 10:00-12:00p </p></div><div class="faculty-box"><img alt="Ben Calloni" src="/_images/faculty/bcalloni.jpg" title="Ben Calloni" border="0" /><p><strong>Ben Calloni</strong><br />Adjunct Faculty<br /><a href="http://www.uta.edu/profiles/ben%20-calloni">Faculty Profile</a><br /><span>ben.calloni@uta.edu</span><br /><strong>Office :</strong> ERB 402<br /><strong>Ph :</strong> <br /><strong>Hrs :</strong> R: 6:00 - 7:00p </p></div><div class="faculty-box"><img alt="Ronald E. Cross" src="/_images/faculty/rcross.jpg" title="Ronald E. Cross" border="0" /><p><strong>Ronald E. Cross</strong><br />Adjunct Faculty<br /><a href="https://www.uta.edu/profiles/ronald-cross">Faculty Profile</a><br /><span>recross@uta.edu</span><br /><strong>Office :</strong> ERB 549<br /><strong>Ph :</strong> 817-272-1728<br /><strong>Hrs :</strong> WF: 10:50-12:50p </p></div><div class="faculty-box"><img alt="Ranjan Dash" src="/_images/faculty/rdash.png" title="Ranjan Dash" border="0" /><p><strong>Ranjan Dash</strong><br />Adjunct Faculty<br /><a href="http://www.uta.edu/profiles/ranjan%20-dash">Faculty Profile</a><br /><span>ranjan.dash@mavs.uta.edu</span><br /><strong>Office :</strong> ERB 339<br /><strong>Ph :</strong> <br /><strong>Hrs :</strong> S: 4:00 - 4:30p </p></div><div class="faculty-box"><img alt="Sajib Datta" src="/_images/faculty/sdatta.jpg" title="Sajib Datta" border="0" /><p><strong>Sajib Datta</strong><br />Adjunct Faculty<br /><a href="https://www.uta.edu/profiles/sajib-datta">Faculty Profile</a> | <a href="http://crystal.uta.edu/~datta/">Website</a> <br /><span>sajib.datta@uta.edu</span><br /><strong>Office :</strong> ERB 336<br /><strong>Ph :</strong> <br /><strong>Hrs :</strong> TR: 3:30 - 5:00p </p></div><div class="faculty-box"><img alt="Stephen Emmons" src="/_images/faculty/empty.jpg" title="Stephen Emmons" border="0" /><p><strong>Stephen Emmons</strong><br />Adjunct Faculty<br /><a href="https://www.uta.edu/profiles/stephen-emmons">Faculty Profile</a><br /><span>emmons@uta.edu</span><br /><strong>Office :</strong> ERB 339<br /><strong>Ph :</strong> <br /><strong>Hrs :</strong> MW: 2:30 - 3:50p </p></div><div class="faculty-box"><img alt="Dennis Frailey" src="/_images/faculty/dfrailey.jpg" title="Dennis Frailey" border="0" /><p><strong>Dennis Frailey</strong><br />Adjunct Faculty<br /><a href="https://www.uta.edu/profiles/dennis-frailey">Faculty Profile</a><br /><span>frailey@dfwair.net</span><br /><strong>Office :</strong> ERB 402<br /><strong>Ph :</strong> <br /><strong>Hrs :</strong> F: 12:15 - 12:45 and 4:00-4:45p </p></div><div class="faculty-box"><img alt="Fred Kashefi" src="/_images/faculty/empty.jpg" title="Fred Kashefi" border="0" /><p><strong>Fred Kashefi</strong><br />Adjunct Faculty<br /><a href="http://www.uta.edu/profiles/feraydune-kashefi">Faculty Profile</a><br /><span>fkashefi@uta.edu</span><br /><strong>Office :</strong> ERB 340<br /><strong>Ph :</strong> <br /><strong>Hrs :</strong> MWF: 10:30-12:00p </p></div><div class="faculty-box"><img alt="Terrance Moore" src="/_images/faculty/empty.jpg" title="Terrance Moore" border="0" /><p><strong>Terrance Moore</strong><br />Adjunct Faculty<br /><a href="http://www.uta.edu/profiles/terrance%20-moore">Faculty Profile</a><br /><span>terrance.moore@uta.edu</span><br /><strong>Office :</strong> ERB 339<br /><strong>Ph :</strong> <br /><strong>Hrs :</strong> TR: 6:00 -7:00p </p></div><div class="faculty-box"><img alt="Stephen Morgan" src="/_images/faculty/morgan.jpg" title="Stephen Morgan" border="0" /><p><strong>Stephen Morgan</strong><br />Adjunct Faculty<br /><a href="https://www.uta.edu/profiles/stephen-morgan">Faculty Profile</a> | <a href="http://ranger.uta.edu/~morgan/">Website</a> <br /><span>morgans@uta.edu</span><br /><strong>Office :</strong> ERB 651<br /><strong>Ph :</strong> N/A<br /><strong>Hrs :</strong> MWF 1:00 - 2:30p </p></div><div class="faculty-box"><img alt="Eknauth Persaud" src="/_images/faculty/empty.jpg" title="Eknauth Persaud" border="0" /><p><strong>Eknauth Persaud</strong><br />Adjunct Faculty<br /><a href="http://www.uta.edu/profiles/eknauth%20-persuad">Faculty Profile</a><br /><span>eknauth.persaud@uta.edu</span><br /><strong>Office :</strong> ERB 551<br /><strong>Ph :</strong> <br /><strong>Hrs :</strong> by request </p></div><div class="faculty-box"><img alt="Anam Sahoo" src="/_images/faculty/empty.jpg" title="Anam Sahoo" border="0" /><p><strong>Anam Sahoo</strong><br />Adjunct Faculty<br /><a href="http://www.uta.edu/profiles/anam-sahoo">Faculty Profile</a><br /><span>anam.sahoo@uta.edu</span><br /><strong>Office :</strong> ERB 320<br /><strong>Ph :</strong> <br /><strong>Hrs :</strong> R: 12:00 - 1:00p </p></div><div class="faculty-box"><img alt="Medhat Saleh" src="/_images/faculty/empty.jpg" title="Medhat Saleh" border="0" /><p><strong>Medhat Saleh</strong><br />Adjunct Faculty<br /><a href="http://www.uta.edu/profiles/medhat%20-m%20-saleh">Faculty Profile</a><br /><span>msaleh@uta.edu</span><br /><strong>Office :</strong> ERB 320<br /><strong>Ph :</strong> <br /><strong>Hrs :</strong> W: 2:30 - 3:55p </p></div><div class="faculty-box"><img alt="Joe Wigner" src="/_images/faculty/jwigner.jpg" title="Joe Wigner" border="0" /><p><strong>Joe Wigner</strong><br />Adjunct Faculty<br /><a href="http://www.uta.edu/profiles/joseph-wigner">Faculty Profile</a><br /><span>joe.wigner@uta.edu</span><br /><strong>Office :</strong> ERB 321<br /><strong>Ph :</strong> <br /><strong>Hrs :</strong> TR 6:15-7:00p </p></div><div class="faculty-box"><img alt="Dimitrios Zikos" src="/_images/faculty/zikos.jpg" title="Dimitrios Zikos" border="0" /><p><strong>Dimitrios Zikos</strong><br />Adjunct Faculty<br /><a href="http://www.uta.edu/profiles/dimitrios-zikos">Faculty Profile</a> | <a href="http://ranger.uta.edu/~zikos/">Website</a> <br /><span>zikos@uta.edu</span><br /><strong>Office :</strong> ERB 652<br /><strong>Ph :</strong> 817-272-0161<br /><strong>Hrs :</strong> MW: 12:00 - 1:30p </p></div><h3 style="clear: left;">Visiting Appointment</h3><br /><div class="faculty-box"><img alt="Sabbatino Bianco" src="/_images/faculty/bianco.jpg" title="Sabbatino Bianco" border="0" /><p><strong>Sabbatino Bianco</strong><br /><span>N/A</span><br /><strong>Office :</strong> N/A N/A<br /><strong>Ph :</strong> N/A </p></div><div class="faculty-box"><img alt="Mario Di Francesco" src="/_images/faculty/difrancesco.jpg" title="Mario Di Francesco" border="0" /><p><strong>Mario Di Francesco</strong><br /><a href="http://www.uta.edu/faculty/mariodf/">Website</a> <br /><span>mariodf@uta.edu</span><br /><strong>Office :</strong> N/A N/A<br /><strong>Ph :</strong> +358 50 5975 25 </p></div><div class="faculty-box"><img alt="Giacomo Ghidini" src="/_images/faculty/ghidini.jpg" title="Giacomo Ghidini" border="0" /><p><strong>Giacomo Ghidini</strong><br /><span>giacomo@uta.edu</span><br /><strong>Office :</strong> ERB 338<br /><strong>Ph :</strong> N/A </p></div><div class="faculty-box"><img alt="Mohan Kumar" src="/_images/faculty/kumar.jpg" title="Mohan Kumar" border="0" /><p><strong>Mohan Kumar</strong><br /><a href="http://www.cs.rit.edu/~mjk/">Website</a> <br /><span>mkumar@uta.edu</span><br /><strong>Office :</strong> N/A N/A<br /><strong>Ph :</strong> N/A </p></div>
+                </article>
+            </section>
+             <section>
+                 <article>
+                    <header><h2><!--section 2 heading--></h2></header>
+                    <!--section 2 article-->
+                 </article>
+            </section>
+            
+            <script>
+togglemenu('submenu-people','people-link')
+</script>
+        </div>
+        <footer><div id="footer-extra"><a href="https://twitter.com/intent/follow?original_referer=http%3A%2F%2Fcse.uta.edu%2Fresearch%2Fcenters-labs.php&amp;screen_name=cseuta&amp;tw_p=followbutton"><img alt="Follow " src="_images/content/twitter.png" style="float: none; margin: 0 0 7px  5px;"/></a> <a href="https://www.facebook.com/groups/119117011465771/"><img alt="Facebook" height="30" src="_images/content/icon-facebook.png" style="float: none; margin: 0 0 7px  5px;" width="30"/></a> <a class="align-right" href="https://www.linkedin.com/groups?trk=myg_ugrp_ovr&amp;gid=4120776"> <img alt="Linked In" height="30" src="_images/content/icon-linkedin.png" style="float: none; margin: 0 0 7px 5px;" width="33"/></a><br/> <a href="faculty-resources.php">Faculty Resources</a></div>
+<div><img alt="The University of Texas at Arlington" height="73" src="_images/elements/uta_sm_logo.png" width="82"/>
+<p><strong>Department of Computer Science and Engineering</strong> <span class="print-only">[<a href="http://www.uta.edu/bioengineering">cse.uta.edu</a>]</span><br/> Engineering Research Building, Room 640, Box 19015, Arlington, TX 76010<br/> Phone: 817-272-3785 | Fax: 817-272-3784 <br/> <a href="http://www.uta.edu/"> &#169;  2015  The University of Texas at Arlington</a>.</p>
+</div>
+<div class="mobile-only">
+<div style="clear: both; margin: 10px auto 10px auto; width: 90%;"><a href="https://twitter.com/intent/follow?original_referer=http%3A%2F%2Fcse.uta.edu%2Fresearch%2Fcenters-labs.php&amp;screen_name=cseuta&amp;tw_p=followbutton"><img alt="Follow " src="_images/content/twitter.png" style="float: none; margin: 0 0 7px  5px;"/></a> <a href="https://www.facebook.com/groups/119117011465771/"><img alt="Facebook" height="30" src="_images/content/icon-facebook.png" style="float: none; margin: 0 0 7px  5px;" width="30"/></a> <a class="align-right" href="https://www.linkedin.com/groups?trk=myg_ugrp_ovr&amp;gid=4120776"> <img alt="Linked In" height="30" src="_images/content/icon-linkedin.png" style="float: none; margin: 0 0 7px 5px;" width="33"/></a><br/> <a href="faculty-resources.php">Faculty Resources</a></div>
+</div></footer>
+    </div>
+</div>
+</body>
+</html>

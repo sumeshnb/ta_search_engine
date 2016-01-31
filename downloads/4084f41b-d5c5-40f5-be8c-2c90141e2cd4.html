@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head>
+<meta content="IE=10" http-equiv="X-UA-Compatible"/>
+<meta charset="utf-8"/>
+<title>News and Highlights from the Department of Computer Science and Engineering at the University of Texas at Arlington</title>
+<meta content="Computer Science and Engineering at The University of Texas at Arlington" name="description"/>
+<meta content="Computer, Science, Engineering, Department, university, texas, arlington" name="keywords"/>
+<meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport"/><link href="../_css/screen.css" media="screen" rel="stylesheet"/> <link href="../_css/print.css" media="print" rel="stylesheet"/>
+<script src="../_js/menu.js" type="text/javascript"></script>
+<noscript>
+<link href="../_css/noscript.css" rel="stylesheet"/>
+</noscript>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js" type="text/javascript"></script>
+<script src="http://malsup.github.io/jquery.cycle2.js" type="text/javascript"></script>
+<script src="http://malsup.github.io/jquery.cycle2.tile.js" type="text/javascript"></script>
+<script language="javascript" type="text/javascript">
+function showHide(shID) {
+   if (document.getElementById(shID)) {
+      if (document.getElementById(shID+'-show').style.display !== 'none') {
+         document.getElementById(shID+'-show').style.display = 'none';
+         document.getElementById(shID).style.display = 'block';
+      }
+      else {
+         document.getElementById(shID+'-show').style.display = 'inline';
+         document.getElementById(shID).style.display = 'none';
+      }
+   }
+}
+
+function newDoc(page) 
+{
+
+    var url = location.href
+    if(url.indexOf("devel") != -1)
+    {
+        var cookie = document.cookie;
+        if(cookie.indexOf("list") != -1)
+        {
+            page = page + "-list"
+            window.location.assign("http://cse-devel.uta.edu" + page + ".php");
+        
+        }
+        else{
+        window.location.assign("http://cse-devel.uta.edu" + page + ".php");
+        }
+    }else{
+    
+        var cookie = document.cookie;
+        if(cookie.indexOf("list") != -1)
+        {
+            page = page + "-list"
+            window.location.assign("http://cse.uta.edu" + page + ".php");
+        
+        }
+        else{
+        window.location.assign("http://cse.uta.edu" + page + ".php");
+        }
+    
+    } 
+}
+
+function sortOption(page) 
+{
+
+    var url = location.href
+    if(url.indexOf("devel") != -1)
+    {
+        var cookie = document.cookie;
+        if(cookie.indexOf("list") != -1)
+        {
+            //page = page + "-list"
+            window.location.assign("http://cse-devel.uta.edu" + page );
+        
+        }
+        else{
+        window.location.assign("http://cse-devel.uta.edu" + page );
+        }
+    }else{
+    
+        var cookie = document.cookie;
+        if(cookie.indexOf("list") != -1)
+        {
+            //page = page + "-list"
+            window.location.assign("http://cse.uta.edu" + page );
+        
+        }
+        else{
+        window.location.assign("http://cse.uta.edu" + page );
+        }
+    
+    } 
+}
+
+</script>
+<style type="text/css">
+.more {
+      display: none;
+}
+</style>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-32021828-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</head>
+<body>
+<p class="skip"><a accesskey="C" href="#content-area">Skip to content</a>. <a accesskey="N" href="#nav">Skip to main navigation</a>.</p>
+<div id="wrapper">
+<header id="page-header"><div id="desktop-header"><a href="http://www.uta.edu/uta/"><img alt="The University of Texas at Arlington" height="48" id="UTA-logo" src="../_images/elements/uta.png" width="327"/></a> <a href="http://www.uta.edu/engineering/"><img alt="College of Engineering" height="48" id="COE-logo" src="../_images/elements/college_of_engineering.png" width="311"/></a> <a href="../index.php"><img alt="Department of Computer Science and Engineering" id="logo" src="../_images/elements/department_of_computer_science_and_engineering.png"/></a></div>
+<div id="mobile-header"><!-- It is important that some images have no size attributes for rendering on different screen sizes -->
+<div id="mobile-uta-logo"><a href="/uta/index.php"><img alt="The University of Texas at Arlington" class="UTA-logo-m" src="../_images/elements/mobile-header.png"/></a><br/><a href="../index.php"><img alt="Department of Computer Science and Engineering" class="UTA-logo-m" src="../_images/elements/mobile-department-header.png"/></a></div>
+<div id="mobile-menu"><a href="#_top" onclick="toggle('navcontainer');" onkeypress="toggle('navcontainer');"><img alt="Menu" src="../_images/elements/menu.png"/></a></div>
+</div>
+<img alt="Department of Bioengineering at The University of Texas at Arlington" class="print-only" src="../_images/elements/print-header.png"/></header>
+<div id="top-line"></div>
+<div id="content-wrapper">
+<nav id="navcontainer"><ul id="nav">
+<li><a href="../index.php">Home</a></li>
+<li><a href="index.php">News</a></li>
+<li><a class="with-submenu" href="#_top" id="admission-link" onclick="togglemenu('submenu-admission','admission-link');" onkeypress="togglemenu('submenu-admission','admission-link');">Future Students</a>
+<ul class="submenu" id="submenu-admission">
+<li><a href="../future-students/under-app.php">Undergraduate Applicants</a></li>
+<li><a href="../future-students/grad-app.php">Graduate Applicants</a></li>
+</ul>
+</li>
+<li><a class="with-submenu" href="#_top" id="current-link" onclick="togglemenu('submenu-current','current-link');" onkeypress="togglemenu('submenu-current','current-link');">Current Students</a>
+<ul class="submenu" id="submenu-current">
+<li><a href="../current-students/undergraduate-studies.php">Undergraduate Study</a></li>
+<li><a href="../current-students/graduate-studies.php">Graduate Study</a></li>
+<li><a href="../current-students/courses-catalog-schedules.php">Courses, Catalog &amp; Schedules</a></li>
+<li><a href="../current-students/student-clubs.php">Student Clubs/Organizations</a></li>
+<li><a href="../current-students/student-services.php">Student Services</a></li>
+</ul>
+</li>
+<li><a class="with-submenu" href="#_top" id="people-link" onclick="togglemenu('submenu-people','people-link');" onkeypress="togglemenu('submenu-people','people-link');">People</a>
+<ul class="submenu" id="submenu-people">
+<li><a href="../faculty-directory.php">Faculty Directory</a></li>
+<li><a href="../staff-directory.php">Staff Directory</a></li>
+<li><a href="../current-students/phd-students/directory-grid.php">PhD Student Directory</a></li>
+</ul>
+</li>
+<li><a class="with-submenu" href="#_top" id="research-link" onclick="togglemenu('submenu-research','research-link');" onkeypress="togglemenu('submenu-research','research-link');">Research</a>
+<ul class="submenu" id="submenu-research">
+<li><a href="../research/centers-labs.php">Centers &amp; Labs</a></li>
+<li><a href="../research/research-areas.php">Research Areas</a></li>
+<li><a href="../research/technical-reports.php">Technical Reports</a></li>
+</ul>
+</li>
+<li><a class="with-submenu" href="#_top" id="seminars-link" onclick="togglemenu('submenu-seminars','seminars-link');" onkeypress="togglemenu('submenu-seminars','seminars-link');">Seminars</a>
+<ul class="submenu" id="submenu-seminars">
+<li><a href="../talks/invited_talks.php">Invited Talks</a></li>
+<li><a href="../talks/ms-defenses.php">MS Defenses</a></li>
+<li><a href="../talks/phd-defenses.php">PhD Defenses</a></li>
+</ul>
+</li>
+<li><a href="../staff-directory.php">Contacts</a></li>
+</ul>   <div id="menu-bottom-extra">
+<div id="talks-and-defenses">
+<p><strong>Invited Talks</strong></p><img src="/talks/images/majewicz.png" style="margin-left:10px;"  /><p><b>Fri 05/01</b> 1:30pm - 3:00pm<br /> Ann Majewicz, PhD - <i>Designing Human-in-the-Loop Systems for Surgical  Training and Intervention - <b>ERB 103</b></i> <img id="refreshment" src="/talks/images/pizza.jpeg" /></p><hr /><p><a href="/talks/invited_talks.php">Details and More Talks ></a></p><hr /></div>
+<p><strong>Computer Science<br/>and Engineering</strong></p>
+<p><span class="underline" data-mce-mark="1">Administration</span><br/> Dr. Lynn Peterson<br/> Interim Chair, Associate Dean<br/> 817-272-3605 <br/> <a href="mailto:peterson@uta.edu">peterson@uta.edu</a><br/><br/>Dr. Ramez Elmasri<br/> Associate Chair<br/> 817-272-2337 <br/> <a href="mailto:chuong@uta.edu">elmasri@uta.edu</a></p>
+<p><span class="underline">Deliveries</span><br/> Engineering Research Building<br/> Room 640<br/>500 UTA Blvd.<br/> Arlington, TX 76010<br/><br/><span class="underline">Mailing Address</span><br/> Box 19015<br/> Arlington, TX 76019<br/><br/> <span class="underline">Phone/Fax/Email</span><br/> Phone: 817-272-3785<br/> Fax: 817-272-3784<br/><br/> <span class="underline">Visitors</span><br/><a href="http://www.uta.edu/maps/index.php?id=23">Map</a><br/><a href="http://www.uta.edu/pats/parking/guest-parking.php">Parking</a> <br/><a href="http://www.uta.edu/admissions/visit/tours-virtual/">Virtual Tour</a></p>
+</div></nav>
+<aside><div style="font-size: 135%; font-weight: bold;">
+<p><img alt="News and Highlights" height="48" src="../_images/elements/newsbyyear.png" width="190"/></p>
+<p><a href="index.php">Latest</a></p>
+<p><a href="2015/index.php">2015</a></p>
+<p><a href="2014/index.php">2014</a></p>
+<p><a href="2013/index.php">2013</a></p>
+<p><a href="2004-2012/index.php">2004-2012</a></p>
+</div>
+<p style="font-size: 100%;"><b>News Letters</b><br/><a href="newsletters/2013_fall.pdf">FALL 2013</a> | <a href="newsletters/newsletter_2012Spring.pdf">SPING 2012</a> <br/> <a href="newsletters/newsletters-archive.php">More ...</a></p>  
+<div id="aside-clear"></div>
+</aside>
+<div class="with-aside" id="content-area"> 
+<section>
+<article>
+<header>
+<h1>News and Highlights</h1>
+</header>
+<div style="border-bottom: 1px dotted #ccc;"></div></article>
+</section>
+<section>
+<article>
+<header>
+<h2><!--section 2 heading--></h2>
+</header>
+
+
+  <div class="news-item">
+  <div class="news-featured-left">
+  <a href="//www.uta.edu/engineering/news-events/news-archives/2015/04-makedon-iperform.php"><img alt="UTA-led iPerform Center Board Meets; New Industry Partners Still Welcome" class="floatleft" height="88" src="//www.uta.edu/engineering/_images_2015/news/Makedon.jpg" width="88"/></a>
+  </div>
+  <div class="news-featured-right">
+  <h3><a href="//www.uta.edu/engineering/news-events/news-archives/2015/04-makedon-iperform.php">UTA-led iPerform Center Board Meets; New Industry Partners Still Welcome</a></h3>
+  
+  <p style="font-size:80%;color:#666;margin:0"><month>April</month>
+  <day-of-month>21</day-of-month>, 
+                    <year>2015</year></p><p>Members of the National Science Foundation and the Industrial Advisory Board of the iPerform NSF Industry/University Cooperative Research Center met recently in Arlington.</p>
+  </div>
+  </div>
+  
+  <div class="news-item">
+  <div class="news-featured-left">
+  <a href="//www.uta.edu/engineering/news-events/news-archives/2015/04-biswas-ieee-best-paper.php"><img alt="CSE Doctoral Student Paper is Best at IEEE BIBE Conference" class="floatleft" height="88" src="//www.uta.edu/engineering/_images_2015/news/ashis-thumb.jpg" width="88"/></a>
+  </div>
+  <div class="news-featured-right">
+  <h3><a href="//www.uta.edu/engineering/news-events/news-archives/2015/04-biswas-ieee-best-paper.php">CSE Doctoral Student Paper is Best at IEEE BIBE Conference</a></h3>
+  
+  <p style="font-size:80%;color:#666;margin:0"><month>April</month>
+  <day-of-month>8</day-of-month>, 
+                    <year>2015</year></p><p>Ashis Biswas, a CSE doctoral student, was awarded Best Paper honors at the recent IEEE International Conference on Bioinformatics and Bioengineering.</p>
+  </div>
+  </div>
+  
+  <div class="news-item">
+  <div class="news-featured-left">
+  <a href="//www.uta.edu/engineering/news-events/news-archives/2015/04-mariottini-library.php"><img alt="Mariottini Uses Robots to Inspire Youngsters About STEM" class="floatleft" height="88" src="//www.uta.edu/engineering/_images_2015/news/gian-luca-mariottini-techacademy.jpg" width="88"/></a>
+  </div>
+  <div class="news-featured-right">
+  <h3><a href="//www.uta.edu/engineering/news-events/news-archives/2015/04-mariottini-library.php">Mariottini Uses Robots to Inspire Youngsters About STEM</a></h3>
+  
+  <p style="font-size:80%;color:#666;margin:0"><month>April</month>
+  <day-of-month>6</day-of-month>, 
+                    <year>2015</year></p><p>Gian-Luca Mariottini and his students are using assistive robots to spur the interest of local middle- and high-school students toward STEM. </p>
+  </div>
+  </div>
+  
+  <div class="news-item">
+  <div class="news-featured-left">
+  <a href="//www.uta.edu/engineering/news-events/news-archives/2015/03-ACES.php"><img alt="Engineering Students Win 11 Awards in ACES Competition" class="floatleft" height="88" src="//www.uta.edu/engineering/_images_2015/news/aces.png" width="88"/></a>
+  </div>
+  <div class="news-featured-right">
+  <h3><a href="//www.uta.edu/engineering/news-events/news-archives/2015/03-ACES.php">Engineering Students Win 11 Awards in ACES Competition</a></h3>
+  
+  <p style="font-size:80%;color:#666;margin:0"><month>March</month>
+  <day-of-month>30</day-of-month>, 
+                    <year>2015</year></p><p>Engineering students took three of the six President's Awards at the 2015 ACES competition.</p>
+  </div>
+  </div>
+  
+  <div class="news-item">
+  <div class="news-featured-left">
+  <a href="//www.uta.edu/engineering/news-events/news-archives/2015/03-hong-jiang-cse-chair.php"><img alt="NSF Program Director Hired as Computer Science and Engineering Chair" class="floatleft" height="88" src="//www.uta.edu/engineering/_images_2015/news/HongJiangthumb.jpg" width="88"/></a>
+  </div>
+  <div class="news-featured-right">
+  <h3><a href="//www.uta.edu/engineering/news-events/news-archives/2015/03-hong-jiang-cse-chair.php">NSF Program Director Hired as Computer Science and Engineering Chair</a></h3>
+  
+  <p style="font-size:80%;color:#666;margin:0"><month>March</month>
+  <day-of-month>18</day-of-month>, 
+                    <year>2015</year></p><p>Dr. Hong Jiang, a National Science Foundation program director, was hired as new UT Arlington Computer Science and Engineering chair.</p>
+  </div>
+  </div>
+  
+  <div class="news-item">
+  <div class="news-featured-left">
+  <a href="//www.uta.edu/engineering/news-events/news-archives/2015/03-COE-grad-ranking.php"><img alt="Graduate Ranking Makes Dramatic Improvement" class="floatleft" height="88" src="//www.uta.edu/engineering/news-events/news-archives/2012/behbehani88.jpg" width="88"/></a>
+  </div>
+  <div class="news-featured-right">
+  <h3><a href="//www.uta.edu/engineering/news-events/news-archives/2015/03-COE-grad-ranking.php">Graduate Ranking Makes Dramatic Improvement</a></h3>
+  
+  <p style="font-size:80%;color:#666;margin:0"><month>March</month>
+  <day-of-month>11</day-of-month>, 
+                    <year>2015</year></p><div id="stcpDiv">
+<div class="clearfloats" id="page-bottom">
+<div id="page-bottom-column-one">
+<div id="news-release">
+<div class="clearfloats" id="news-header">
+<p>The College of Engineering's graduate programs jumped 12 spots, to No. 90, in U.S. News &amp; World Report’s Best Graduate Programs rankings for 2016.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+  </div>
+  </div>
+  
+  <div class="news-item">
+  <div class="news-featured-left">
+  <a href="//www.uta.edu/engineering/news-events/news-archives/2015/0224-meier-obit.php"><img alt="Professor Emeritus France Meier Dies at Age 86" class="floatleft" height="88" src="//www.uta.edu/engineering/_images_2015/news/France-Meier-thumb.jpg" width="88"/></a>
+  </div>
+  <div class="news-featured-right">
+  <h3><a href="//www.uta.edu/engineering/news-events/news-archives/2015/0224-meier-obit.php">Professor Emeritus France Meier Dies at Age 86</a></h3>
+  
+  <p style="font-size:80%;color:#666;margin:0"><month>February</month>
+  <day-of-month>25</day-of-month>, 
+                    <year>2015</year></p><p>France Meier, an emeritus professor of Industrial, Manufacturing, and Systems Engineering, died February 17 in Arlington, TX. He was 86.</p>
+  </div>
+  </div>
+  
+  <div class="news-item">
+  <div class="news-featured-left">
+  <a href="//www.uta.edu/engineering/news-events/news-archives/2015/02-huber-driver.php"><img alt="Huber Designing System to Reserve Vehicles, Remind Veterans of Appointments" class="floatleft" height="88" src="//www.uta.edu/engineering/_images_2015/news/huber-thumb.jpg" width="88"/></a>
+  </div>
+  <div class="news-featured-right">
+  <h3><a href="//www.uta.edu/engineering/news-events/news-archives/2015/02-huber-driver.php">Huber Designing System to Reserve Vehicles, Remind Veterans of Appointments</a></h3>
+  
+  <p style="font-size:80%;color:#666;margin:0"><month>February</month>
+  <day-of-month>11</day-of-month>, 
+                    <year>2015</year></p><p>CSE's Manfred Huber is designing a reservation/reminder software system as part of a project that will eventually transport veterans on military bases to doctors' appointments using driverless cars.</p>
+  </div>
+  </div>
+  
+  <div class="news-item">
+  <div class="news-featured-left">
+  <a href="//www.uta.edu/engineering/news-events/news-archives/2015/02-spring-enroll.php"><img alt="Engineering Enrollment Drives University Increase" class="floatleft" height="88" src="//www.uta.edu/engineering/_images_2015/news/UC Mall 2010.jpg" width="88"/></a>
+  </div>
+  <div class="news-featured-right">
+  <h3><a href="//www.uta.edu/engineering/news-events/news-archives/2015/02-spring-enroll.php">Engineering Enrollment Drives University Increase</a></h3>
+  
+  <p style="font-size:80%;color:#666;margin:0"><month>February</month>
+  <day-of-month>9</day-of-month>, 
+                    <year>2015</year></p><p>Driven by a 22% increase in enrollment in the College of Engineering, UTA's enrollment surpassed 36,000 for the first time in spring 2015.</p>
+  </div>
+  </div>
+  
+  <div class="news-item">
+  <div class="news-featured-left">
+  <a href="//www.uta.edu/engineering/news-events/news-archives/2015/01-makedon-cri.php"><img alt="CSE's Makedon Working to Advance Human-Machine Interaction Research" class="floatleft" height="88" src="//www.uta.edu/engineering/_images_2015/news/Makedon.jpg" width="88"/></a>
+  </div>
+  <div class="news-featured-right">
+  <h3><a href="//www.uta.edu/engineering/news-events/news-archives/2015/01-makedon-cri.php">CSE's Makedon Working to Advance Human-Machine Interaction Research</a></h3>
+  
+  <p style="font-size:80%;color:#666;margin:0"><month>January</month>
+  <day-of-month>8</day-of-month>, 
+                    <year>2015</year></p><p>Fillia Makedon has received a grant from the National Science Foundation to build a computational infrastructure that can greatly advance human-machine interaction research.</p>
+  </div>
+  </div>
+  
+  <div class="news-item">
+  <div class="news-featured-left">
+  <a href="/news-highlights/2015/01-happy-new-year.php"><img alt="Happy New Year" class="floatleft" height="88" src="/_images/content/cseatutathumb.jpg" width="88"/></a>
+  </div>
+  <div class="news-featured-right">
+  <h3><a href="/news-highlights/2015/01-happy-new-year.php">Happy New Year</a></h3>
+  
+  <p style="font-size:80%;color:#666;margin:0"><month>January</month>
+  <day-of-month>1</day-of-month>, 
+                    <year>2015</year></p><p>Happy New Year from the Department of Computer Science and Engineering at The University of Texas at Arlington.</p>
+  </div>
+  </div>
+  
+  <div class="news-item">
+  <div class="news-featured-left">
+  <a href="//www.uta.edu/engineering/news-events/news-archives/2014/12-makedon-iperform.php"><img alt="UTA-led iPerform Center Seeking Industry Partners" class="floatleft" height="88" src="//www.uta.edu/engineering/news-events/news-archives/2013/images/makedonsm.jpg" width="88"/></a>
+  </div>
+  <div class="news-featured-right">
+  <h3><a href="//www.uta.edu/engineering/news-events/news-archives/2014/12-makedon-iperform.php">UTA-led iPerform Center Seeking Industry Partners</a></h3>
+  
+  <p style="font-size:80%;color:#666;margin:0"><month>December</month>
+  <day-of-month>19</day-of-month>, 
+                    <year>2014</year></p><p>UT Arlington and UT Dallas have created a new NSF center called iPerform that focuses on assistive technologies to enhance human performance.</p>
+  </div>
+  </div>
+  
+  <div class="news-item">
+  <div class="news-featured-left">
+  <a href="//www.uta.edu/engineering/news-events/news-archives/2014/12-us-india-chamber-innovation.php"><img alt="Students Finish Third in Spirit of Innovation Competition " class="floatleft" height="88" src="//www.uta.edu/engineering/_images_2014/news/innovation_group.jpg" width="88"/></a>
+  </div>
+  <div class="news-featured-right">
+  <h3><a href="//www.uta.edu/engineering/news-events/news-archives/2014/12-us-india-chamber-innovation.php">Students Finish Third in Spirit of Innovation Competition </a></h3>
+  
+  <p style="font-size:80%;color:#666;margin:0"><month>December</month>
+  <day-of-month>16</day-of-month>, 
+                    <year>2014</year></p><p>A team of UTA engineering graduate students finished third in the U.S. India Chamber of Commerce’s Spirit of Innovation Competition on December 4.</p>
+  </div>
+  </div>
+  
+  <div class="news-item">
+  <div class="news-featured-left">
+  <a href="//www.uta.edu/engineering/news-events/news-archives/2014/12-das-army-bigdata.php"><img alt="Das's Research Looks to Unlock Connections Among Social Network Data" class="floatleft" height="88" src="//www.uta.edu/engineering/_images_2014/news/das-gautam-thumb.jpg" width="88"/></a>
+  </div>
+  <div class="news-featured-right">
+  <h3><a href="//www.uta.edu/engineering/news-events/news-archives/2014/12-das-army-bigdata.php">Das's Research Looks to Unlock Connections Among Social Network Data</a></h3>
+  
+  <p style="font-size:80%;color:#666;margin:0"><month>December</month>
+  <day-of-month>8</day-of-month>, 
+                    <year>2014</year></p><p><span>Computer Science and Engineering Professor Gautam Das has won a $450,000 Army Research Office grant to develop efficient analytic techniques for combining and understanding the data stored in online social networks.</span></p>
+  </div>
+  </div>
+  
+  <div class="news-item">
+  <div class="news-featured-left">
+  <a href="//www.uta.edu/engineering/news-events/news-archives/2014/1110-wright-security.php"><img alt="CSE's Wright Wins NSF Grant to Bolster Online Privacy" class="floatleft" height="88" src="//www.uta.edu/engineering/_images_2014/news/wright-hs.jpg" width="88"/></a>
+  </div>
+  <div class="news-featured-right">
+  <h3><a href="//www.uta.edu/engineering/news-events/news-archives/2014/1110-wright-security.php">CSE's Wright Wins NSF Grant to Bolster Online Privacy</a></h3>
+  
+  <p style="font-size:80%;color:#666;margin:0"><month>November</month>
+  <day-of-month>10</day-of-month>, 
+                    <year>2014</year></p><p>Computer Science Associate Professor Matt Wright <span>is studying smarter route selection and adaptive cover traffic as ways of protecting computer privacy. </span></p>
+  </div>
+  </div>
+  
+  <div class="news-item">
+  <div class="news-featured-left">
+  <a href="//www.uta.edu/engineering/news-events/news-archives/2014/10-gridlock-contest-winners.php"><img alt="CSE Students Win Challenge for Real-Time Traffic App" class="floatleft" height="88" src="//www.uta.edu/engineering/_images_2014/news/GridLock-thumb.jpg" width="88"/></a>
+  </div>
+  <div class="news-featured-right">
+  <h3><a href="//www.uta.edu/engineering/news-events/news-archives/2014/10-gridlock-contest-winners.php">CSE Students Win Challenge for Real-Time Traffic App</a></h3>
+  
+  <p style="font-size:80%;color:#666;margin:0"><month>October</month>
+  <day-of-month>27</day-of-month>, 
+                    <year>2014</year></p><p><span>Three Computer Science and Engineering students have won a $10,000 prize in the NTx Apps Challenge for a smart traffic light network that adjusts traffic light schedules to make traffic flow more efficient.</span></p>
+  </div>
+  </div>
+  
+  <div class="news-item">
+  <div class="news-featured-left">
+  <a href="//www.uta.edu/engineering/news-events/news-archives/2014/10-Li-VLDB.php"><img alt="CSE Researchers Win Award at VLDB Conference" class="floatleft" height="88" src="//www.uta.edu/engineering/_images_2014/news/vldb-thumb.jpg" width="88"/></a>
+  </div>
+  <div class="news-featured-right">
+  <h3><a href="//www.uta.edu/engineering/news-events/news-archives/2014/10-Li-VLDB.php">CSE Researchers Win Award at VLDB Conference</a></h3>
+  
+  <p style="font-size:80%;color:#666;margin:0"><month>October</month>
+  <day-of-month>17</day-of-month>, 
+                    <year>2014</year></p><p><span>A team of researchers from the Computer Science and Engineering Department recently won an award at the 40</span><sup>th</sup><span>International Conference on Very Large Data Bases (VLDB) in China.</span></p>
+  </div>
+  </div>
+  
+  <div class="news-item">
+  <div class="news-featured-left">
+  <a href="//www.uta.edu/engineering/news-events/news-archives/2014/10-fab-lab.php"><img alt="University Fab Lab Opens" class="floatleft" height="88" src="//www.uta.edu/engineering/news-events/news-archives/2014/images/3-Dscanning.jpg" width="88"/></a>
+  </div>
+  <div class="news-featured-right">
+  <h3><a href="//www.uta.edu/engineering/news-events/news-archives/2014/10-fab-lab.php">University Fab Lab Opens</a></h3>
+  
+  <p style="font-size:80%;color:#666;margin:0"><month>October</month>
+  <day-of-month>13</day-of-month>, 
+                    <year>2014</year></p><p><span>UTA opened the Fab Lab, a state-of-the-art Fabrication Laboratory featuring cutting-edge technology for research in digital fabrication and data visualization, on October 8 at the Central Library. </span></p>
+  </div>
+  </div>
+  
+  <div class="news-item">
+  <div class="news-featured-left">
+  <a href="//www.uta.edu/engineering/news-events/news-archives/2014/10-big-data-analytics-pain-management.php"><img alt="Big data analytics could yield better treatment for pain management" class="floatleft" height="88" src="//www.uta.edu/engineering/_images/news/thumbnails/faculty-staff/group-88.jpg" width="88"/></a>
+  </div>
+  <div class="news-featured-right">
+  <h3><a href="//www.uta.edu/engineering/news-events/news-archives/2014/10-big-data-analytics-pain-management.php">Big data analytics could yield better treatment for pain management</a></h3>
+  
+  <p style="font-size:80%;color:#666;margin:0"><month>October</month>
+  <day-of-month>1</day-of-month>, 
+                    <year>2014</year></p><p><span>A UT Arlington multi-disciplinary team is optimizing and integrating volumes of data in a National Science Foundation research project to help physicians make better, more informed decisions about treating patients’ pain.</span></p>
+  </div>
+  </div>
+  
+  <div class="news-item">
+  <div class="news-featured-left">
+  <a href="//www.uta.edu/engineering/news-events/news-archives/2014/09-database-query-nsf-chenkai-li.php"><img alt="Forming better database queries at heart of NSF research project" class="floatleft" height="88" src="//www.uta.edu/engineering/_images_2014/news/li-88.jpg" width="88"/></a>
+  </div>
+  <div class="news-featured-right">
+  <h3><a href="//www.uta.edu/engineering/news-events/news-archives/2014/09-database-query-nsf-chenkai-li.php">Forming better database queries at heart of NSF research project</a></h3>
+  
+  <p style="font-size:80%;color:#666;margin:0"><month>September</month>
+  <day-of-month>26</day-of-month>, 
+                    <year>2014</year></p><p>CSE Associate Professor Chengkai Li is helping design a system that will ask better questions when querying databases and lead to improved decision-making in our data-driven society.</p>
+  </div>
+  </div>
+  
+  <div class="news-item">
+  <div class="news-featured-left">
+  <a href="//www.uta.edu/engineering/news-events/news-archives/2014/09-aboughadareh-award.php"><img alt="CSE Doctoral Student Wins Symantec Intern Competition" class="floatleft" height="88" src="//www.uta.edu/engineering/news-events/news-archives/2014/images/aboughadareh_thumb.jpg" width="88"/></a>
+  </div>
+  <div class="news-featured-right">
+  <h3><a href="//www.uta.edu/engineering/news-events/news-archives/2014/09-aboughadareh-award.php">CSE Doctoral Student Wins Symantec Intern Competition</a></h3>
+  
+  <p style="font-size:80%;color:#666;margin:0"><month>September</month>
+  <day-of-month>18</day-of-month>, 
+                    <year>2014</year></p><p><span>Shabnam Aboughadareh, a doctoral student in the Computer Science and Engineering Department, won her division in Symantec’s 7</span><sup>th</sup><span> Annual Intern Showcase Competition.</span></p>
+  </div>
+  </div>
+  
+  <div class="news-item">
+  <div class="news-featured-left">
+  <a href="//www.uta.edu/engineering/news-events/news-archives/2014/08-edX.php"><img alt="UTA, College to Offer Online Intro to Engineering for High School Students" class="floatleft" height="88" src="//www.uta.edu/engineering/news-events/news-archives/2014/images/gearhead thumb.jpg" width="88"/></a>
+  </div>
+  <div class="news-featured-right">
+  <h3><a href="//www.uta.edu/engineering/news-events/news-archives/2014/08-edX.php">UTA, College to Offer Online Intro to Engineering for High School Students</a></h3>
+  
+  <p style="font-size:80%;color:#666;margin:0"><month>September</month>
+  <day-of-month>10</day-of-month>, 
+                    <year>2014</year></p><p><span>UTA and the College of Engineering are developing a two-part, 12-week “Introduction to Engineering and Engineering Mathematics” course as part of the edX program announced this week.</span></p>
+  </div>
+  </div>
+  
+  <div class="news-item">
+  <div class="news-featured-left">
+  <a href="//www.uta.edu/engineering/news-events/news-archives/2014/09-junzhou-huang-250000-nsf-scalable-data-mining-framework.php"><img alt="Genomic data-mining framework helping manufacturers discover materials" class="floatleft" height="88" src="//www.uta.edu/engineering/_images/news/thumbnails/faculty-staff/junzhou-huang-88.jpg" width="88"/></a>
+  </div>
+  <div class="news-featured-right">
+  <h3><a href="//www.uta.edu/engineering/news-events/news-archives/2014/09-junzhou-huang-250000-nsf-scalable-data-mining-framework.php">Genomic data-mining framework helping manufacturers discover materials</a></h3>
+  
+  <p style="font-size:80%;color:#666;margin:0"><month>September</month>
+  <day-of-month>8</day-of-month>, 
+                    <year>2014</year></p><p>Junzhou Huang, an assistant professor of Computer Science has won a $250,000 NSF grant to develop a scalable data-mining framework to help manufacturers quickly discover materials for building products.</p>
+  </div>
+  </div>
+  
+  <div class="news-item">
+  <div class="news-featured-left">
+  <a href="//www.uta.edu/engineering/news-events/news-archives/2014/08-15-gao-mental-disease-network.php"><img alt="Research Team's Work Could Lead to Earlier Diagnosis, Treatment" class="floatleft" height="88" src="//www.uta.edu/engineering/_images/news/thumbnails/faculty-staff/kim-gao_88.jpg" width="88"/></a>
+  </div>
+  <div class="news-featured-right">
+  <h3><a href="//www.uta.edu/engineering/news-events/news-archives/2014/08-15-gao-mental-disease-network.php">Research Team's Work Could Lead to Earlier Diagnosis, Treatment</a></h3>
+  
+  <p style="font-size:80%;color:#666;margin:0"><month>August</month>
+  <day-of-month>15</day-of-month>, 
+                    <year>2014</year></p><p>A computer science and engineering associate professor and her doctoral student graduate are using a genetic computer network inference model that eventually could predict mental illness.</p>
+  </div>
+  </div>
+  
+  <div class="news-item">
+  <div class="news-featured-left">
+  <a href="//www.uta.edu/engineering/news-events/news-archives/2014/08-BUPT-commencement.php"><img alt="First Cohort of BUPT Students Earns Degrees" class="floatleft" height="88" src="//www.uta.edu/engineering/news-events/news-archives/2014/images/BUPTthumb.jpg" width="88"/></a>
+  </div>
+  <div class="news-featured-right">
+  <h3><a href="//www.uta.edu/engineering/news-events/news-archives/2014/08-BUPT-commencement.php">First Cohort of BUPT Students Earns Degrees</a></h3>
+  
+  <p style="font-size:80%;color:#666;margin:0"><month>August</month>
+  <day-of-month>14</day-of-month>, 
+                    <year>2014</year></p><p>Thirteen students from <span>Beijing University of Posts and Telecommunications earned joint master's degrees in Computer Science and Engineering</span></p>
+  </div>
+  </div>
+  
+  <div class="news-item">
+  <div class="news-featured-left">
+  <a href="//www.uta.edu/engineering/news-events/news-archives/2014/08-welcome-bash-preview.php"><img alt="Welcome Bash Will Greet New and Returning Students" class="floatleft" height="88" src="//www.uta.edu/engineering/news-events/news-archives/2014/images/welcome-bash-thumb.jpg" width="88"/></a>
+  </div>
+  <div class="news-featured-right">
+  <h3><a href="//www.uta.edu/engineering/news-events/news-archives/2014/08-welcome-bash-preview.php">Welcome Bash Will Greet New and Returning Students</a></h3>
+  
+  <p style="font-size:80%;color:#666;margin:0"><month>August</month>
+  <day-of-month>5</day-of-month>, 
+                    <year>2014</year></p><p>Annual Welcome Bash will be held Wednesday, September 3, to welcome new students and greet returning ones.</p>
+  </div>
+  </div>
+  
+  <div class="news-item">
+  <div class="news-featured-left">
+  <a href="//www.uta.edu/engineering/news-events/news-archives/2014/08-irss-winners.php"><img alt="CSE Students Win Project Competition at IRSS" class="floatleft" height="88" src="//www.uta.edu/engineering/news-events/news-archives/2014/images/IRSS winners thumb.jpg" width="88"/></a>
+  </div>
+  <div class="news-featured-right">
+  <h3><a href="//www.uta.edu/engineering/news-events/news-archives/2014/08-irss-winners.php">CSE Students Win Project Competition at IRSS</a></h3>
+  
+  <p style="font-size:80%;color:#666;margin:0"><month>August</month>
+  <day-of-month>4</day-of-month>, 
+                    <year>2014</year></p><p>Two CSE students won first prize at the IRSS conference in Greece in July.</p>
+  </div>
+  </div>
+  
+  <div class="news-item">
+  <div class="news-featured-left">
+  <a href="//www.uta.edu/engineering/news-events/news-archives/2014/07-CSE-alum-wins-award.php"><img alt="CSE Alum Earns Honorable Mention Award in ACM Contest" class="floatleft" height="88" src="//www.uta.edu/engineering/news-events/news-archives/2014/images/Das_M_thumb.jpg" width="88"/></a>
+  </div>
+  <div class="news-featured-right">
+  <h3><a href="//www.uta.edu/engineering/news-events/news-archives/2014/07-CSE-alum-wins-award.php">CSE Alum Earns Honorable Mention Award in ACM Contest</a></h3>
+  
+  <p style="font-size:80%;color:#666;margin:0"><month>July</month>
+  <day-of-month>23</day-of-month>, 
+                    <year>2014</year></p><p>Computer Science and Engineering alumna Mahashweta Das received Honorable Mention in the 2014 ACM SIGKDD Doctoral Dissertation Award competition.</p>
+  </div>
+  </div>
+  
+  <div class="news-item">
+  <div class="news-featured-left">
+  <a href="//www.uta.edu/engineering/news-events/news-archives/2014/07-Huang-NSF-gene-expressions.php"><img alt="Big Data Team Wins $600,000 NSF Grant for Gene Expression Database" class="floatleft" height="88" src="//www.uta.edu/engineering/_images/news/thumbnails/machines/heng-huang.png" width="88"/></a>
+  </div>
+  <div class="news-featured-right">
+  <h3><a href="//www.uta.edu/engineering/news-events/news-archives/2014/07-Huang-NSF-gene-expressions.php">Big Data Team Wins $600,000 NSF Grant for Gene Expression Database</a></h3>
+  
+  <p style="font-size:80%;color:#666;margin:0"><month>July</month>
+  <day-of-month>22</day-of-month>, 
+                    <year>2014</year></p><div id="stcpDiv">
+<p>CSE professor with an expertise in big data and bioinformatics to develop an interactive database of gene expressions of the fruit fly.</p>
+</div>
+  </div>
+  </div>
+  
+  <div class="news-item">
+  <div class="news-featured-left">
+  <a href="/news-highlights/2014/02-huber-regents-outstanding-teaching-awards.php"><img alt="Prof. Huber representing UTA in &quot;Regents' Outstanding Teaching Awards&quot; competition. " class="floatleft" height="88" src="/_images/old-news-images/88/huber.jpg" width="88"/></a>
+  </div>
+  <div class="news-featured-right">
+  <h3><a href="/news-highlights/2014/02-huber-regents-outstanding-teaching-awards.php">Prof. Huber representing UTA in "Regents' Outstanding Teaching Awards" competition. </a></h3>
+  
+  <p style="font-size:80%;color:#666;margin:0"><month>June</month>
+  <day-of-month>30</day-of-month>, 
+                    <year>2014</year></p><p>Dr. Manfred Huber selected to represent UT Arlington in the 2014 "Regents' Outstanding Teaching Awards" competition. </p>
+  </div>
+  </div>
+  
+  <div class="news-item">
+  <div class="news-featured-left">
+  <a href="/news-highlights/2014/03-alum-receives-distinguished-research-award.php"><img alt="Alum,Dr. Habib M. Ammari, Receives the Distinguished Research Award at University of Michigan-Dearborn." class="floatleft" height="88" src="/_images/old-news-images/88/Errahman.jpg" width="88"/></a>
+  </div>
+  <div class="news-featured-right">
+  <h3><a href="/news-highlights/2014/03-alum-receives-distinguished-research-award.php">Alum,Dr. Habib M. Ammari, Receives the Distinguished Research Award at University of Michigan-Dearborn.</a></h3>
+  
+  <p style="font-size:80%;color:#666;margin:0"><month>June</month>
+  <day-of-month>30</day-of-month>, 
+                    <year>2014</year></p><p>CSE Alumnus, Dr. Habib M. Ammari, receives the Distinguished Research Award, at the University of Michigan-Dearborn.</p>
+  </div>
+  </div>
+  
+  <div class="news-item">
+  <div class="news-featured-left">
+  <a href="//www.uta.edu/engineering/news-events/news-archives/2014/05-commencement-recap.php"><img alt="More than 400 Students Participate in Commencement" class="floatleft" height="88" src="//www.uta.edu/engineering/news-events/news-archives/2013/images/COEgonfalon.jpg" width="88"/></a>
+  </div>
+  <div class="news-featured-right">
+  <h3><a href="//www.uta.edu/engineering/news-events/news-archives/2014/05-commencement-recap.php">More than 400 Students Participate in Commencement</a></h3>
+  
+  <p style="font-size:80%;color:#666;margin:0"><month>May</month>
+  <day-of-month>9</day-of-month>, 
+                    <year>2014</year></p><p>More than 400 students will cross the stage at the College's spring commencement May 10.</p>
+  </div>
+  </div>
+  
+  <div class="news-item">
+  <div class="news-featured-left">
+  <a href="//www.uta.edu/engineering/news-events/news-archives/2014/05-faculty-awards.php"><img alt="Faculty Honored for Research, Teaching, and Mentoring" class="floatleft" height="88" src="//www.uta.edu/engineering/news-events/news-archives/2013/images/Small A.jpg" width="88"/></a>
+  </div>
+  <div class="news-featured-right">
+  <h3><a href="//www.uta.edu/engineering/news-events/news-archives/2014/05-faculty-awards.php">Faculty Honored for Research, Teaching, and Mentoring</a></h3>
+  
+  <p style="font-size:80%;color:#666;margin:0"><month>May</month>
+  <day-of-month>8</day-of-month>, 
+                    <year>2014</year></p><p>Several members of the Engineering faculty recently were honored with University awards for research, teaching, and mentoring.</p>
+  </div>
+  </div>
+  
+  <div class="news-item">
+  <div class="news-featured-left">
+  <a href="//www.uta.edu/engineering/news-events/news-archives/2014/04-uav-certificate.php"><img alt="College to Add UAV Certificate for Fall 2014" class="floatleft" height="88" src="//www.uta.edu/engineering/news-events/news-archives/2014/images/UAV-thumb.png" width="88"/></a>
+  </div>
+  <div class="news-featured-right">
+  <h3><a href="//www.uta.edu/engineering/news-events/news-archives/2014/04-uav-certificate.php">College to Add UAV Certificate for Fall 2014</a></h3>
+  
+  <p style="font-size:80%;color:#666;margin:0"><month>April</month>
+  <day-of-month>10</day-of-month>, 
+                    <year>2014</year></p><p>UTA has announced a new unmanned vehicle systems undergraduate certificate for students interested in careers in one of the nation's most exciting engineering fields.</p>
+  </div>
+  </div>
+  
+  <div class="news-item">
+  <div class="news-featured-left">
+  <a href="//www.uta.edu/engineering/news-events/news-archives/2014/04-employee-service-awards.php"><img alt="Employees Honored for Years of Service to UTA" class="floatleft" height="88" src="//www.uta.edu/engineering/news-events/news-archives/2014/images/40YearEmployees-thumb.jpg" width="88"/></a>
+  </div>
+  <div class="news-featured-right">
+  <h3><a href="//www.uta.edu/engineering/news-events/news-archives/2014/04-employee-service-awards.php">Employees Honored for Years of Service to UTA</a></h3>
+  
+  <p style="font-size:80%;color:#666;margin:0"><month>April</month>
+  <day-of-month>7</day-of-month>, 
+                    <year>2014</year></p><p>Seventeen College of Engineering faculty and staff were honored for their combined 325 years of service to UT Arlington at an April 3 banquet, including three who each have 40 years at the University.</p>
+  </div>
+  </div>
+  
+  <div class="news-item">
+  <div class="news-featured-left">
+  <a href="/news-highlights/2014/03-provosts-award-puerto-souza.php"><img alt="CSE Ph.D. Student Gustavo A. Puerto-Souza receives the Provost's Award" class="floatleft" height="88" src="/_images/content/cseatutathumb.jpg" width="88"/></a>
+  </div>
+  <div class="news-featured-right">
+  <h3><a href="/news-highlights/2014/03-provosts-award-puerto-souza.php">CSE Ph.D. Student Gustavo A. Puerto-Souza receives the Provost's Award</a></h3>
+  
+  <p style="font-size:80%;color:#666;margin:0"><month>March</month>
+  <day-of-month>26</day-of-month>, 
+                    <year>2014</year></p><p>At the Annual Celebration of Excellence by Students symposium.</p>
+  </div>
+  </div>
+  
+  <div class="news-item">
+  <div class="news-featured-left">
+  <a href="/news-highlights/2014/03-ghidini-tracking-power.php"><img alt="Alum Creates System to Track Home Power Usage" class="floatleft" height="88" src="/_images/old-news-images/88/img-giacomo-ghidini.jpg" width="88"/></a>
+  </div>
+  <div class="news-featured-right">
+  <h3><a href="/news-highlights/2014/03-ghidini-tracking-power.php">Alum Creates System to Track Home Power Usage</a></h3>
+  
+  <p style="font-size:80%;color:#666;margin:0"><month>March</month>
+  <day-of-month>10</day-of-month>, 
+                    <year>2014</year></p><p>CSE Alumnus Researcher creating system to help homeowners track their power usage, potentially lower their energy bills</p>
+  </div>
+  </div>
+  
+  <div class="news-item">
+  <div class="news-featured-left">
+  <a href="//www.uta.edu/engineering/news-events/news-archives/2014/03-oguni-app.php"><img alt="CSE Student Takes Third in Pearson Coding Contest" class="floatleft" height="88" src="//www.uta.edu/engineering/news-events/news-archives/2014/images/Oguni-thumb.jpg" width="88"/></a>
+  </div>
+  <div class="news-featured-right">
+  <h3><a href="//www.uta.edu/engineering/news-events/news-archives/2014/03-oguni-app.php">CSE Student Takes Third in Pearson Coding Contest</a></h3>
+  
+  <p style="font-size:80%;color:#666;margin:0"><month>March</month>
+  <day-of-month>5</day-of-month>, 
+                    <year>2014</year></p><p>Tracy Oguni, a senior software engineering student, recently finished third in the Pearson Student Coding Contest with her Android app, “Study Buddy.”</p>
+  </div>
+  </div>
+  
+  <div class="news-item">
+  <div class="news-featured-left">
+  <a href="//www.uta.edu/engineering/news-events/news-archives/2014/04-empowering-energy-consumers.php"><img alt="Empowering Energy Consumers" class="floatleft" height="88" src="//www.uta.edu/engineering/_images/news/thumbnails/machines/ghidini.jpg" width="88"/></a>
+  </div>
+  <div class="news-featured-right">
+  <h3><a href="//www.uta.edu/engineering/news-events/news-archives/2014/04-empowering-energy-consumers.php">Empowering Energy Consumers</a></h3>
+  
+  <p style="font-size:80%;color:#666;margin:0"><month>March</month>
+  <day-of-month>1</day-of-month>, 
+                    <year>2014</year></p><p>Researcher creating system to help homeowners track their power usage, potentially lower their energy bills </p>
+  </div>
+  </div>
+  
+  <div class="news-item">
+  <div class="news-featured-left">
+  <a href="//www.uta.edu/engineering/news-events/news-archives/2014/02-spring-enrollment.php"><img alt="Engineering Helps Boost UTA Enrollment Above 34,000 for First Time" class="floatleft" height="88" src="//www.uta.edu/engineering/news-events/news-archives/2013/images/Small A.jpg" width="88"/></a>
+  </div>
+  <div class="news-featured-right">
+  <h3><a href="//www.uta.edu/engineering/news-events/news-archives/2014/02-spring-enrollment.php">Engineering Helps Boost UTA Enrollment Above 34,000 for First Time</a></h3>
+  
+  <p style="font-size:80%;color:#666;margin:0"><month>February</month>
+  <day-of-month>4</day-of-month>, 
+                    <year>2014</year></p><p><span>UTA enrollment for the Spring 2014 semester has climbed to a record 34,249 students, buoyed by strong growth in the College of Engineering. </span></p>
+  </div>
+  </div>
+  
+<!--section 2 article-->
+</article>
+</section>
+ </div>
+<footer><div id="footer-extra"><a href="https://twitter.com/intent/follow?original_referer=http%3A%2F%2Fcse.uta.edu%2Fresearch%2Fcenters-labs.php&amp;screen_name=cseuta&amp;tw_p=followbutton"><img alt="Follow " src="../_images/content/twitter.png" style="float: none; margin: 0 0 7px  5px;"/></a> <a href="https://www.facebook.com/groups/119117011465771/"><img alt="Facebook" height="30" src="../_images/content/icon-facebook.png" style="float: none; margin: 0 0 7px  5px;" width="30"/></a> <a class="align-right" href="https://www.linkedin.com/groups?trk=myg_ugrp_ovr&amp;gid=4120776"> <img alt="Linked In" height="30" src="../_images/content/icon-linkedin.png" style="float: none; margin: 0 0 7px 5px;" width="33"/></a><br/> <a href="../faculty-resources.php">Faculty Resources</a></div>
+<div><img alt="The University of Texas at Arlington" height="73" src="../_images/elements/uta_sm_logo.png" width="82"/>
+<p><strong>Department of Computer Science and Engineering</strong> <span class="print-only">[<a href="http://www.uta.edu/bioengineering">cse.uta.edu</a>]</span><br/> Engineering Research Building, Room 640, Box 19015, Arlington, TX 76010<br/> Phone: 817-272-3785 | Fax: 817-272-3784 <br/> <a href="http://www.uta.edu/"> &#169;  2015  The University of Texas at Arlington</a>.</p>
+</div>
+<div class="mobile-only">
+<div style="clear: both; margin: 10px auto 10px auto; width: 90%;"><a href="https://twitter.com/intent/follow?original_referer=http%3A%2F%2Fcse.uta.edu%2Fresearch%2Fcenters-labs.php&amp;screen_name=cseuta&amp;tw_p=followbutton"><img alt="Follow " src="../_images/content/twitter.png" style="float: none; margin: 0 0 7px  5px;"/></a> <a href="https://www.facebook.com/groups/119117011465771/"><img alt="Facebook" height="30" src="../_images/content/icon-facebook.png" style="float: none; margin: 0 0 7px  5px;" width="30"/></a> <a class="align-right" href="https://www.linkedin.com/groups?trk=myg_ugrp_ovr&amp;gid=4120776"> <img alt="Linked In" height="30" src="../_images/content/icon-linkedin.png" style="float: none; margin: 0 0 7px 5px;" width="33"/></a><br/> <a href="../faculty-resources.php">Faculty Resources</a></div>
+</div></footer>
+</div>
+</div>
+</body>
+</html>

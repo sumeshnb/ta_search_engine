@@ -1,0 +1,1380 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head>
+<meta content="IE=10" http-equiv="X-UA-Compatible"/>
+<meta charset="utf-8"/>
+<title>News Archive - 2004-2012</title>
+<meta content="2004-2012 Department Highlights from the Department of Computer Science and Engineering" name="description"/>
+
+<meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport"/><link href="../../_css/screen.css" media="screen" rel="stylesheet"/> <link href="../../_css/print.css" media="print" rel="stylesheet"/>
+<script src="../../_js/menu.js" type="text/javascript"></script>
+<noscript>
+<link href="../../_css/noscript.css" rel="stylesheet"/>
+</noscript>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js" type="text/javascript"></script>
+<script src="http://malsup.github.io/jquery.cycle2.js" type="text/javascript"></script>
+<script src="http://malsup.github.io/jquery.cycle2.tile.js" type="text/javascript"></script>
+<script language="javascript" type="text/javascript">
+function showHide(shID) {
+   if (document.getElementById(shID)) {
+      if (document.getElementById(shID+'-show').style.display !== 'none') {
+         document.getElementById(shID+'-show').style.display = 'none';
+         document.getElementById(shID).style.display = 'block';
+      }
+      else {
+         document.getElementById(shID+'-show').style.display = 'inline';
+         document.getElementById(shID).style.display = 'none';
+      }
+   }
+}
+
+function newDoc(page) 
+{
+
+    var url = location.href
+    if(url.indexOf("devel") != -1)
+    {
+        var cookie = document.cookie;
+        if(cookie.indexOf("list") != -1)
+        {
+            page = page + "-list"
+            window.location.assign("http://cse-devel.uta.edu" + page + ".php");
+        
+        }
+        else{
+        window.location.assign("http://cse-devel.uta.edu" + page + ".php");
+        }
+    }else{
+    
+        var cookie = document.cookie;
+        if(cookie.indexOf("list") != -1)
+        {
+            page = page + "-list"
+            window.location.assign("http://cse.uta.edu" + page + ".php");
+        
+        }
+        else{
+        window.location.assign("http://cse.uta.edu" + page + ".php");
+        }
+    
+    } 
+}
+
+function sortOption(page) 
+{
+
+    var url = location.href
+    if(url.indexOf("devel") != -1)
+    {
+        var cookie = document.cookie;
+        if(cookie.indexOf("list") != -1)
+        {
+            //page = page + "-list"
+            window.location.assign("http://cse-devel.uta.edu" + page );
+        
+        }
+        else{
+        window.location.assign("http://cse-devel.uta.edu" + page );
+        }
+    }else{
+    
+        var cookie = document.cookie;
+        if(cookie.indexOf("list") != -1)
+        {
+            //page = page + "-list"
+            window.location.assign("http://cse.uta.edu" + page );
+        
+        }
+        else{
+        window.location.assign("http://cse.uta.edu" + page );
+        }
+    
+    } 
+}
+
+</script>
+<style type="text/css">
+.more {
+      display: none;
+}
+</style>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-32021828-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</head>
+<body>
+<p class="skip"><a accesskey="C" href="#content-area">Skip to content</a>. <a accesskey="N" href="#nav">Skip to main navigation</a>.</p>
+<div id="wrapper">
+<header id="page-header"><div id="desktop-header"><a href="http://www.uta.edu/uta/"><img alt="The University of Texas at Arlington" height="48" id="UTA-logo" src="../../_images/elements/uta.png" width="327"/></a> <a href="http://www.uta.edu/engineering/"><img alt="College of Engineering" height="48" id="COE-logo" src="../../_images/elements/college_of_engineering.png" width="311"/></a> <a href="../../index.php"><img alt="Department of Computer Science and Engineering" id="logo" src="../../_images/elements/department_of_computer_science_and_engineering.png"/></a></div>
+<div id="mobile-header"><!-- It is important that some images have no size attributes for rendering on different screen sizes -->
+<div id="mobile-uta-logo"><a href="/uta/index.php"><img alt="The University of Texas at Arlington" class="UTA-logo-m" src="../../_images/elements/mobile-header.png"/></a><br/><a href="../../index.php"><img alt="Department of Computer Science and Engineering" class="UTA-logo-m" src="../../_images/elements/mobile-department-header.png"/></a></div>
+<div id="mobile-menu"><a href="#_top" onclick="toggle('navcontainer');" onkeypress="toggle('navcontainer');"><img alt="Menu" src="../../_images/elements/menu.png"/></a></div>
+</div>
+<img alt="Department of Bioengineering at The University of Texas at Arlington" class="print-only" src="../../_images/elements/print-header.png"/></header>
+<div id="top-line"></div>
+<div id="content-wrapper">
+<nav id="navcontainer"><ul id="nav">
+<li><a href="../../index.php">Home</a></li>
+<li><a href="../index.php">News</a></li>
+<li><a class="with-submenu" href="#_top" id="admission-link" onclick="togglemenu('submenu-admission','admission-link');" onkeypress="togglemenu('submenu-admission','admission-link');">Future Students</a>
+<ul class="submenu" id="submenu-admission">
+<li><a href="../../future-students/under-app.php">Undergraduate Applicants</a></li>
+<li><a href="../../future-students/grad-app.php">Graduate Applicants</a></li>
+</ul>
+</li>
+<li><a class="with-submenu" href="#_top" id="current-link" onclick="togglemenu('submenu-current','current-link');" onkeypress="togglemenu('submenu-current','current-link');">Current Students</a>
+<ul class="submenu" id="submenu-current">
+<li><a href="../../current-students/undergraduate-studies.php">Undergraduate Study</a></li>
+<li><a href="../../current-students/graduate-studies.php">Graduate Study</a></li>
+<li><a href="../../current-students/courses-catalog-schedules.php">Courses, Catalog &amp; Schedules</a></li>
+<li><a href="../../current-students/student-clubs.php">Student Clubs/Organizations</a></li>
+<li><a href="../../current-students/student-services.php">Student Services</a></li>
+</ul>
+</li>
+<li><a class="with-submenu" href="#_top" id="people-link" onclick="togglemenu('submenu-people','people-link');" onkeypress="togglemenu('submenu-people','people-link');">People</a>
+<ul class="submenu" id="submenu-people">
+<li><a href="../../faculty-directory.php">Faculty Directory</a></li>
+<li><a href="../../staff-directory.php">Staff Directory</a></li>
+<li><a href="../../current-students/phd-students/directory-grid.php">PhD Student Directory</a></li>
+</ul>
+</li>
+<li><a class="with-submenu" href="#_top" id="research-link" onclick="togglemenu('submenu-research','research-link');" onkeypress="togglemenu('submenu-research','research-link');">Research</a>
+<ul class="submenu" id="submenu-research">
+<li><a href="../../research/centers-labs.php">Centers &amp; Labs</a></li>
+<li><a href="../../research/research-areas.php">Research Areas</a></li>
+<li><a href="../../research/technical-reports.php">Technical Reports</a></li>
+</ul>
+</li>
+<li><a class="with-submenu" href="#_top" id="seminars-link" onclick="togglemenu('submenu-seminars','seminars-link');" onkeypress="togglemenu('submenu-seminars','seminars-link');">Seminars</a>
+<ul class="submenu" id="submenu-seminars">
+<li><a href="../../talks/invited_talks.php">Invited Talks</a></li>
+<li><a href="../../talks/ms-defenses.php">MS Defenses</a></li>
+<li><a href="../../talks/phd-defenses.php">PhD Defenses</a></li>
+</ul>
+</li>
+<li><a href="../../staff-directory.php">Contacts</a></li>
+</ul>   <div id="menu-bottom-extra">
+<div id="talks-and-defenses">
+<p><strong>Invited Talks</strong></p><img src="/talks/images/majewicz.png" style="margin-left:10px;"  /><p><b>Fri 05/01</b> 1:30pm - 3:00pm<br /> Ann Majewicz, PhD - <i>Designing Human-in-the-Loop Systems for Surgical  Training and Intervention - <b>ERB 103</b></i> <img id="refreshment" src="/talks/images/pizza.jpeg" /></p><hr /><p><a href="/talks/invited_talks.php">Details and More Talks ></a></p><hr /></div>
+<p><strong>Computer Science<br/>and Engineering</strong></p>
+<p><span class="underline" data-mce-mark="1">Administration</span><br/> Dr. Lynn Peterson<br/> Interim Chair, Associate Dean<br/> 817-272-3605 <br/> <a href="mailto:peterson@uta.edu">peterson@uta.edu</a><br/><br/>Dr. Ramez Elmasri<br/> Associate Chair<br/> 817-272-2337 <br/> <a href="mailto:chuong@uta.edu">elmasri@uta.edu</a></p>
+<p><span class="underline">Deliveries</span><br/> Engineering Research Building<br/> Room 640<br/>500 UTA Blvd.<br/> Arlington, TX 76010<br/><br/><span class="underline">Mailing Address</span><br/> Box 19015<br/> Arlington, TX 76019<br/><br/> <span class="underline">Phone/Fax/Email</span><br/> Phone: 817-272-3785<br/> Fax: 817-272-3784<br/><br/> <span class="underline">Visitors</span><br/><a href="http://www.uta.edu/maps/index.php?id=23">Map</a><br/><a href="http://www.uta.edu/pats/parking/guest-parking.php">Parking</a> <br/><a href="http://www.uta.edu/admissions/visit/tours-virtual/">Virtual Tour</a></p>
+</div></nav>
+<aside><div style="font-size: 135%; font-weight: bold;">
+<p><img alt="News and Highlights" height="48" src="../../_images/elements/newsbyyear.png" width="190"/></p>
+<p><a href="../index.php">Latest</a></p>
+<p><a href="../2015/index.php">2015</a></p>
+<p><a href="../2014/index.php">2014</a></p>
+<p><a href="../2013/index.php">2013</a></p>
+<p><a href="index.php">2004-2012</a></p>
+</div>
+<p style="font-size: 100%;"><b>News Letters</b><br/><a href="../newsletters/2013_fall.pdf">FALL 2013</a> | <a href="../newsletters/newsletter_2012Spring.pdf">SPING 2012</a> <br/> <a href="../newsletters/newsletters-archive.php">More ...</a></p>  
+<div id="aside-clear"></div>
+</aside>
+<div class="with-aside" id="content-area"> 
+<section>
+<article>
+<header>
+<h1>News Archive - 2004-2012</h1>
+</header>
+<div style="border-bottom: 1px dotted #ccc;"></div></article>
+</section>
+<section>
+<article>
+<header>
+<h2><!--section 2 heading--></h2>
+</header>
+
+
+  <div class="news-item">
+  <div class="news-featured-left">
+  <a href="//www.uta.edu/engineering/news-events/news-archives/2012/fall-commencement.php"><img alt="Over 300 Engineering Students Graduate" class="floatleft" height="88" src="//www.uta.edu/engineering/news-events/news-archives/2012/images/mace.jpg" width="88"/></a>
+  </div>
+  <div class="news-featured-right">
+  <h3><a href="//www.uta.edu/engineering/news-events/news-archives/2012/fall-commencement.php">Over 300 Engineering Students Graduate</a></h3>
+  
+  <p style="font-size:80%;color:#666;margin:0"><month>December</month>
+  <day-of-month>20</day-of-month>, 
+                    <year>2012</year></p><p>Amid pageantry and cheers, more than 300 engineering students crossed the stage at the College Park Center on December 16 to collect their diplomas. </p>
+  </div>
+  </div>
+  
+  <div class="news-item">
+  <div class="news-featured-left">
+  <a href="//www.uta.edu/engineering/news-events/news-archives/2012/prevent-heat-build-up.php"><img alt="Engineers Working to Prevent Heat Buildup Within 3D Integrated Circuits" class="floatleft" height="88" src="//www.uta.edu/engineering/_images/news/thumbnails/faculty-staff/ankur_jain.jpg" width="88"/></a>
+  </div>
+  <div class="news-featured-right">
+  <h3><a href="//www.uta.edu/engineering/news-events/news-archives/2012/prevent-heat-build-up.php">Engineers Working to Prevent Heat Buildup Within 3D Integrated Circuits</a></h3>
+  
+  <p style="font-size:80%;color:#666;margin:0"><month>December</month>
+  <day-of-month>19</day-of-month>, 
+                    <year>2012</year></p><p>UT Arlington team minimizing generated heat and develooping nano-windows to allow heat to dissipate in 3D integrated circuits.</p>
+  </div>
+  </div>
+  
+  <div class="news-item">
+  <div class="news-featured-left">
+  <a href="/news-highlights/2004-2012/2012-11-ghidini.php"><img alt=" Ghidini receives best paper award" class="floatleft" height="88" src="/_images/old-news-images/88/img-giacomo-ghidini.jpg" width="88"/></a>
+  </div>
+  <div class="news-featured-right">
+  <h3><a href="/news-highlights/2004-2012/2012-11-ghidini.php"> Ghidini receives best paper award</a></h3>
+  
+  <p style="font-size:80%;color:#666;margin:0"><month>November</month>
+  <day-of-month>10</day-of-month>, 
+                    <year>2012</year></p><p>Giacomo Ghidini receives best paper award at IEEE SmartGridComm 2012.</p>
+  </div>
+  </div>
+  
+  <div class="news-item">
+  <div class="news-featured-left">
+  <a href="/news-highlights/2004-2012/2012-09-Lei-two-awards.php"><img alt="Dr. Jeff Lei receives two awards from NIST for his project on Combinatorial Testing " class="floatleft" height="88" src="/_images/old-news-images/88/lei.jpg" width="88"/></a>
+  </div>
+  <div class="news-featured-right">
+  <h3><a href="/news-highlights/2004-2012/2012-09-Lei-two-awards.php">Dr. Jeff Lei receives two awards from NIST for his project on Combinatorial Testing </a></h3>
+  
+  <p style="font-size:80%;color:#666;margin:0"><month>September</month>
+  <day-of-month>17</day-of-month>, 
+                    <year>2012</year></p><p>Associate professor Jeff Lei got two grant awards from NIST for his research on "Combinatorial Testing for Complex Systems" and "Combinatorial Testing for Healthcare Systems" with a total amount of $400K.</p>
+  </div>
+  </div>
+  
+  <div class="news-item">
+  <div class="news-featured-left">
+  <a href="/news-highlights/2004-2012/2012-08-cse-gaann-award.php"><img alt="CSE Faculty receive GAANN Award" class="floatleft" height="88" src="/_images/old-news-images/88/zaruba.jpg" width="88"/></a>
+  </div>
+  <div class="news-featured-right">
+  <h3><a href="/news-highlights/2004-2012/2012-08-cse-gaann-award.php">CSE Faculty receive GAANN Award</a></h3>
+  
+  <p style="font-size:80%;color:#666;margin:0"><month>August</month>
+  <day-of-month>31</day-of-month>, 
+                    <year>2012</year></p><p>CSE Faculty have been awarded GAANN grant by Department of Education for their proposal.</p>
+  </div>
+  </div>
+  
+  <div class="news-item">
+  <div class="news-featured-left">
+  <a href="/news-highlights/2004-2012/2012-08-csallner-microsoft-summit.php"><img alt="Dr. Christoph Csallner invited at 2012 Microsoft Research Faculty Summit. " class="floatleft" height="88" src="/_images/old-news-images/88/christoph.jpg" width="88"/></a>
+  </div>
+  <div class="news-featured-right">
+  <h3><a href="/news-highlights/2004-2012/2012-08-csallner-microsoft-summit.php">Dr. Christoph Csallner invited at 2012 Microsoft Research Faculty Summit. </a></h3>
+  
+  <p style="font-size:80%;color:#666;margin:0"><month>August</month>
+  <day-of-month>14</day-of-month>, 
+                    <year>2012</year></p><p>Assistant Professor Christoph Csallner was invited to give a talk at the 2012 Microsoft Research Faculty Summit.</p>
+  </div>
+  </div>
+  
+  <div class="news-item">
+  <div class="news-featured-left">
+  <a href="//www.uta.edu/engineering/news-events/news-archives/2012/nedderman-gift.php"><img alt="Dr. Nedderman Made a Gift to the College's Wendell Nedderman Endowment Fund" class="floatleft" height="88" src="//www.uta.edu/engineering/news-events/news-archives/2012/images/Nedderman-signingthumb.jpg" width="88"/></a>
+  </div>
+  <div class="news-featured-right">
+  <h3><a href="//www.uta.edu/engineering/news-events/news-archives/2012/nedderman-gift.php">Dr. Nedderman Made a Gift to the College's Wendell Nedderman Endowment Fund</a></h3>
+  
+  <p style="font-size:80%;color:#666;margin:0"><month>June</month>
+  <day-of-month>4</day-of-month>, 
+                    <year>2012</year></p><p>Wendell Nedderman, President Emeritus of UT Arlington and founder of the College of Engineering, recently made a gift to the College's Wendell Nedderman Endowment Fund. </p>
+  </div>
+  </div>
+  
+  <div class="news-item">
+  <div class="news-featured-left">
+  <a href="//www.uta.edu/engineering/news-events/news-archives/2012/cse-at-gannon.php"><img alt="CSE Alumnus is New Provost and VPAA at Gannon" class="floatleft" height="88" src="//www.uta.edu/engineering/_images/news/thumbnails/cse-alum.jpg" width="88"/></a>
+  </div>
+  <div class="news-featured-right">
+  <h3><a href="//www.uta.edu/engineering/news-events/news-archives/2012/cse-at-gannon.php">CSE Alumnus is New Provost and VPAA at Gannon</a></h3>
+  
+  <p style="font-size:80%;color:#666;margin:0"><month>April</month>
+  <day-of-month>25</day-of-month>, 
+                    <year>2012</year></p><p>Andrew J. Novobilski, an alumnus of UT Arlington's Computer Science and Engineering Department, has been named Gannon University's provost and vice president for academic affairs.</p>
+  </div>
+  </div>
+  
+  <div class="news-item">
+  <div class="news-featured-left">
+  <a href="/news-highlights/2004-2012/2012-03-uta-smart-care-cbs-news.php"><img alt="UTA Smart Care Turns Household Items Into Home Care - CBS Dallas / Fort Worth" class="floatleft" height="88" src="/_images/content/cseatutathumb.jpg" width="88"/></a>
+  </div>
+  <div class="news-featured-right">
+  <h3><a href="/news-highlights/2004-2012/2012-03-uta-smart-care-cbs-news.php">UTA Smart Care Turns Household Items Into Home Care - CBS Dallas / Fort Worth</a></h3>
+  
+  <p style="font-size:80%;color:#666;margin:0"><month>March</month>
+  <day-of-month>14</day-of-month>, 
+                    <year>2012</year></p><p>UTA Smart Care Turns Household Items Into Home Care - CBS Dallas / Fort Worth.</p>
+  </div>
+  </div>
+  
+  <div class="news-item">
+  <div class="news-featured-left">
+  <a href="/news-highlights/2004-2012/2012-03-das-ieee-icde.php"><img alt="Prof. Gautam Das receives IEEE ICDE Award " class="floatleft" height="88" src="/_images/old-news-images/88/gdas.jpg" width="88"/></a>
+  </div>
+  <div class="news-featured-right">
+  <h3><a href="/news-highlights/2004-2012/2012-03-das-ieee-icde.php">Prof. Gautam Das receives IEEE ICDE Award </a></h3>
+  
+  <p style="font-size:80%;color:#666;margin:0"><month>March</month>
+  <day-of-month>14</day-of-month>, 
+                    <year>2012</year></p><p>Professor Gautam Das has received the "IEEE ICDE Influential Paper Award". </p>
+  </div>
+  </div>
+  
+  <div class="news-item">
+  <div class="news-featured-left">
+  <a href="/news-highlights/2004-2012/2012-03-mahashweta-das-fellowship-finalist.php"><img alt="Mahashweta Das selected as a finalist for Google Anita Borg Memorial Fellowship" class="floatleft" height="88" src="/_images/content/cseatutathumb.jpg" width="88"/></a>
+  </div>
+  <div class="news-featured-right">
+  <h3><a href="/news-highlights/2004-2012/2012-03-mahashweta-das-fellowship-finalist.php">Mahashweta Das selected as a finalist for Google Anita Borg Memorial Fellowship</a></h3>
+  
+  <p style="font-size:80%;color:#666;margin:0"><month>March</month>
+  <day-of-month>14</day-of-month>, 
+                    <year>2012</year></p><p>Mahashweta Das, advised by Professor Gautam Das, was selected as a finalist for the prestigious Google Anita Borg Memorial Fellowship </p>
+  </div>
+  </div>
+  
+  <div class="news-item">
+  <div class="news-featured-left">
+  <a href="//www.uta.edu/engineering/news-events/news-archives/2012/staff-award.php"><img alt="CSE Staff Named Outstanding Maverick" class="floatleft" height="88" src="//www.uta.edu/engineering/_images/news/thumbnails/faculty-staff/staffthumb1.jpg" width="88"/></a>
+  </div>
+  <div class="news-featured-right">
+  <h3><a href="//www.uta.edu/engineering/news-events/news-archives/2012/staff-award.php">CSE Staff Named Outstanding Maverick</a></h3>
+  
+  <p style="font-size:80%;color:#666;margin:0"><month>January</month>
+  <day-of-month>24</day-of-month>, 
+                    <year>2012</year></p><p>Pam McBride, Administrative Assistant II in the Computer Science &amp; Engineering Department recognized as one of the University's best at the Outstanding Maverick Awards Dinner.</p>
+  </div>
+  </div>
+  
+  <div class="news-item">
+  <div class="news-featured-left">
+  <a href="//www.uta.edu/engineering/news-events/news-archives/2012/one-laptop-a-child.php"><img alt="One Laptop Per Child CEO to Speak at UTA" class="floatleft" height="88" src="//www.uta.edu/engineering/_images/news/thumbnails/publications/rodrigo.jpg" width="88"/></a>
+  </div>
+  <div class="news-featured-right">
+  <h3><a href="//www.uta.edu/engineering/news-events/news-archives/2012/one-laptop-a-child.php">One Laptop Per Child CEO to Speak at UTA</a></h3>
+  
+  <p style="font-size:80%;color:#666;margin:0"><month>January</month>
+  <day-of-month>18</day-of-month>, 
+                    <year>2012</year></p><p>Rodrigo Arboleda will speak at UTA as part of the Distinguished Speaker Series, Wednesday, January 25</p>
+  </div>
+  </div>
+  
+  <div class="news-item">
+  <div class="news-featured-left">
+  <a href="/news-highlights/2004-2012/2012-01-crewman.php"><img alt="CReWMaN researcher is awarded the best PhD forum paper" class="floatleft" height="88" src="/_images/content/cseatutathumb.jpg" width="88"/></a>
+  </div>
+  <div class="news-featured-right">
+  <h3><a href="/news-highlights/2004-2012/2012-01-crewman.php">CReWMaN researcher is awarded the best PhD forum paper</a></h3>
+  
+  <p style="font-size:80%;color:#666;margin:0"><month>January</month>
+  <day-of-month>10</day-of-month>, 
+                    <year>2012</year></p><p>CReWMaN researcher is awarded the best PhD forum paper and nominated for best paper at ICDCN 2012.</p>
+  </div>
+  </div>
+  
+  <div class="news-item">
+  <div class="news-featured-left">
+  <a href="/news-highlights/2004-2012/2010-12-greer-visits.php"><img alt="Dr. Chris Greer Visits CSE Department " class="floatleft" height="88" src="/_images/content/cseatutathumb.jpg" width="88"/></a>
+  </div>
+  <div class="news-featured-right">
+  <h3><a href="/news-highlights/2004-2012/2010-12-greer-visits.php">Dr. Chris Greer Visits CSE Department </a></h3>
+  
+  <p style="font-size:80%;color:#666;margin:0"><month>December</month>
+  <day-of-month>25</day-of-month>, 
+                    <year>2011</year></p><p>Dr. Chris Greer, assistant director from the Office of Science and Technology Policy, visits CSE Department at UTA.</p>
+  </div>
+  </div>
+  
+  <div class="news-item">
+  <div class="news-featured-left">
+  <a href="/news-highlights/2004-2012/2011-12-chakravarthy-ieee.php"><img alt="Professor Sharma Chakravarthy was awarded ACM Distinguished Scientist&#9;" class="floatleft" height="88" src="/_images/old-news-images/88/chakravarthy.jpg" width="88"/></a>
+  </div>
+  <div class="news-featured-right">
+  <h3><a href="/news-highlights/2004-2012/2011-12-chakravarthy-ieee.php">Professor Sharma Chakravarthy was awarded ACM Distinguished Scientist	</a></h3>
+  
+  <p style="font-size:80%;color:#666;margin:0"><month>December</month>
+  <day-of-month>20</day-of-month>, 
+                    <year>2011</year></p><p>Professor Sharma Chakravarthy was awarded ACM Distinguished Scientist in November 2011 and IEEE Senior member in August 2011.</p>
+  </div>
+  </div>
+  
+  <div class="news-item">
+  <div class="news-featured-left">
+  <a href="/news-highlights/2004-2012/2011-11-wright-kumar-nsf.php"><img alt="Faculty Leading new NSF Project" class="floatleft" height="88" src="/_images/old-news-images/88/wright.jpg" width="88"/></a>
+  </div>
+  <div class="news-featured-right">
+  <h3><a href="/news-highlights/2004-2012/2011-11-wright-kumar-nsf.php">Faculty Leading new NSF Project</a></h3>
+  
+  <p style="font-size:80%;color:#666;margin:0"><month>November</month>
+  <day-of-month>1</day-of-month>, 
+                    <year>2011</year></p><p>Associate Professor Matthew Wright and Professor Mohan Kumar are leading a new NSF project</p>
+  </div>
+  </div>
+  
+  <div class="news-item">
+  <div class="news-featured-left">
+  <a href="/news-highlights/2004-2012/2011-10-nsf-grand-csallner-li-fegaras.php"><img alt="New NSF Grant Awarded to Dr. Christoph Csallner (PI), Dr. Chengkai Li (Co-PI) and Dr. Leonidas Fegaras " class="floatleft" height="88" src="/_images/old-news-images/88/christoph.jpg" width="88"/></a>
+  </div>
+  <div class="news-featured-right">
+  <h3><a href="/news-highlights/2004-2012/2011-10-nsf-grand-csallner-li-fegaras.php">New NSF Grant Awarded to Dr. Christoph Csallner (PI), Dr. Chengkai Li (Co-PI) and Dr. Leonidas Fegaras </a></h3>
+  
+  <p style="font-size:80%;color:#666;margin:0"><month>October</month>
+  <day-of-month>13</day-of-month>, 
+                    <year>2011</year></p><p>Assistant professors Christoph Csallner (PI), Chengkai Li (Co-PI) and Associate professor Leonidas Fegaras (Co-PI) have been awarded an $497K NSF grant for their proposal entitled "SHF: Small: Testing Large-Scale Database-Centric Applications". </p>
+  </div>
+  </div>
+  
+  <div class="news-item">
+  <div class="news-featured-left">
+  <a href="//www.uta.edu/engineering/news-events/news-archives/2011/sign-language-recognition.php"><img alt="Sign Language Recognition" class="floatleft" height="88" src="//www.uta.edu/engineering/_images/news/thumbnails/faculty-staff/vassilis-athitsos.jpg" width="88"/></a>
+  </div>
+  <div class="news-featured-right">
+  <h3><a href="//www.uta.edu/engineering/news-events/news-archives/2011/sign-language-recognition.php">Sign Language Recognition</a></h3>
+  
+  <p style="font-size:80%;color:#666;margin:0"><month>August</month>
+  <day-of-month>26</day-of-month>, 
+                    <year>2011</year></p><p>A computer science engineer has won two new grants to further his work in developing a computer recognition system that eventually will yield a visual, online American Sign Language dictionary.</p>
+  </div>
+  </div>
+  
+  <div class="news-item">
+  <div class="news-featured-left">
+  <a href="/news-highlights/2004-2012/2011-09-hp-innovation-research-awards-li.php"><img alt="Dr. Chengkai Li got HP Labs Innovation Research Award " class="floatleft" height="88" src="/_images/old-news-images/88/chengkai.jpg" width="88"/></a>
+  </div>
+  <div class="news-featured-right">
+  <h3><a href="/news-highlights/2004-2012/2011-09-hp-innovation-research-awards-li.php">Dr. Chengkai Li got HP Labs Innovation Research Award </a></h3>
+  
+  <p style="font-size:80%;color:#666;margin:0"><month>August</month>
+  <day-of-month>21</day-of-month>, 
+                    <year>2011</year></p><p>Assistant professor Chengkai Li has been been awarded a 2011 HP Labs Innovation Research Award of $40,000 for Aug.1, 2011-July 31, 2012, on "Entity-Centric Querying of Enterprise Information for IT Management".</p>
+  </div>
+  </div>
+  
+  <div class="news-item">
+  <div class="news-featured-left">
+  <a href="/news-highlights/2004-2012/2011-07-nsf-huang-makedon.php"><img alt="New NSF Grant Awarded to Dr. Heng Huang and Dr. Fillia Makedon " class="floatleft" height="88" src="/_images/old-news-images/88/heng_uta.jpg" width="88"/></a>
+  </div>
+  <div class="news-featured-right">
+  <h3><a href="/news-highlights/2004-2012/2011-07-nsf-huang-makedon.php">New NSF Grant Awarded to Dr. Heng Huang and Dr. Fillia Makedon </a></h3>
+  
+  <p style="font-size:80%;color:#666;margin:0"><month>July</month>
+  <day-of-month>9</day-of-month>, 
+                    <year>2011</year></p><p>Assistant professor Heng Huang (PI) and Professor Fillia Makedon (Co-PI) got a new NSF grant for their proposal titled "A Large-Scale Data Mining Framework for Genome-Wide Mapping of Multi-Modal Phenotypic Biomarkers and Outcome Prediction". This is a three-year project with a total budget of $499,904, collaborating with the Indiana University School of Medicine. </p>
+  </div>
+  </div>
+  
+  <div class="news-item">
+  <div class="news-featured-left">
+  <a href="/news-highlights/2004-2012/2010-12-09-athitsos-CAREER-award.php"><img alt="Assistant Professor Athitsos has been awarded CAREER Award " class="floatleft" height="88" src="/_images/old-news-images/88/vassilis.jpg" width="88"/></a>
+  </div>
+  <div class="news-featured-right">
+  <h3><a href="/news-highlights/2004-2012/2010-12-09-athitsos-CAREER-award.php">Assistant Professor Athitsos has been awarded CAREER Award </a></h3>
+  
+  <p style="font-size:80%;color:#666;margin:0"><month>December</month>
+  <day-of-month>9</day-of-month>, 
+                    <year>2010</year></p><p>Assistant Professor Vassilis Athitsos has been awarded a CAREER award on his proposal entitled "CAREER: Large Vocabulary Gesture Recognition for Everyone: Gesture Modeling and Recognition Tools for System Builders and Users". The total amount is $513K for three years. </p>
+  </div>
+  </div>
+  
+  <div class="news-item">
+  <div class="news-featured-left">
+  <a href="/news-highlights/2004-2012/2010-10-lei-xie-nist-grant.php"><img alt="Associate professor Jeff Lei got $250K grant award NIST " class="floatleft" height="88" src="/_images/old-news-images/88/lei.jpg" width="88"/></a>
+  </div>
+  <div class="news-featured-right">
+  <h3><a href="/news-highlights/2004-2012/2010-10-lei-xie-nist-grant.php">Associate professor Jeff Lei got $250K grant award NIST </a></h3>
+  
+  <p style="font-size:80%;color:#666;margin:0"><month>October</month>
+  <day-of-month>26</day-of-month>, 
+                    <year>2010</year></p><p>Dr. Jeff Lei (PI) and Tao Xie (NC State)got new NIST grant for their proposal titled "Fault Localization Based on Combinatorial Testing". This is a three-year project with a total budget of $250K. </p>
+  </div>
+  </div>
+  
+  <div class="news-item">
+  <div class="news-featured-left">
+  <a href="/news-highlights/2004-2012/2010-09-li-das-nsf-500k.php"><img alt="New NSF grant awarded for Dr. Chengkai Li and Dr. Gautam Das " class="floatleft" height="88" src="/_images/old-news-images/88/chengkai.jpg" width="88"/></a>
+  </div>
+  <div class="news-featured-right">
+  <h3><a href="/news-highlights/2004-2012/2010-09-li-das-nsf-500k.php">New NSF grant awarded for Dr. Chengkai Li and Dr. Gautam Das </a></h3>
+  
+  <p style="font-size:80%;color:#666;margin:0"><month>September</month>
+  <day-of-month>7</day-of-month>, 
+                    <year>2010</year></p><p>Dr. Chengkai Li (PI) and Dr. Gautam Das(co-PI) have been awarded an NSF grant for their proposal "EntityEngine: A Query Engine for Entity-Relationship Queries over Web Text". The amount is about $500K for 3 years. </p>
+  </div>
+  </div>
+  
+  <div class="news-item">
+  <div class="news-featured-left">
+  <a href="/news-highlights/2004-2012/2010-08-20-huang-200k-grant.php"><img alt="Heng Huang grant from Consolidated Edison, Inc. " class="floatleft" height="88" src="/_images/old-news-images/88/heng_uta.jpg" width="88"/></a>
+  </div>
+  <div class="news-featured-right">
+  <h3><a href="/news-highlights/2004-2012/2010-08-20-huang-200k-grant.php">Heng Huang grant from Consolidated Edison, Inc. </a></h3>
+  
+  <p style="font-size:80%;color:#666;margin:0"><month>August</month>
+  <day-of-month>20</day-of-month>, 
+                    <year>2010</year></p><p>Dr. Heng Huang (PI) got a new $200K grant with Dr. Wei-jen Lee (Co-PI from EE department) from Consolidated Edison, Inc. This project is to investigate pattern recognition algorithms for utilizing data collected from Advanced Metering Infrastructure. </p>
+  </div>
+  </div>
+  
+  <div class="news-item">
+  <div class="news-featured-left">
+  <a href="/news-highlights/2004-2012/2010-08-csallner-nsf.php"><img alt="Assistant Professor Christoph Csallner (PI) got an NSF award " class="floatleft" height="88" src="/_images/old-news-images/88/christoph.jpg" width="88"/></a>
+  </div>
+  <div class="news-featured-right">
+  <h3><a href="/news-highlights/2004-2012/2010-08-csallner-nsf.php">Assistant Professor Christoph Csallner (PI) got an NSF award </a></h3>
+  
+  <p style="font-size:80%;color:#666;margin:0"><month>August</month>
+  <day-of-month>8</day-of-month>, 
+                    <year>2010</year></p><p>Assistant Professor Christoph Csallner (PI) has been awarded an NSF grant for his proposal entitled "SHF: Small: Collaborative Research: Preserving Test Coverage While Achieving Data Anonymity for Database-Centric Applications" . This is part of a collaborative proposal with PI Mark Grechanik (the University of Illinois at Chicago). </p>
+  </div>
+  </div>
+  
+  <div class="news-item">
+  <div class="news-featured-left">
+  <a href="/news-highlights/2004-2012/2010-08-makedon-li-nsf.php"><img alt="Professor Fillia Makedon (PI) and Dr. Zhengyi Le have been awarded a $152K NSF grant" class="floatleft" height="88" src="/_images/old-news-images/88/makedon.jpg" width="88"/></a>
+  </div>
+  <div class="news-featured-right">
+  <h3><a href="/news-highlights/2004-2012/2010-08-makedon-li-nsf.php">Professor Fillia Makedon (PI) and Dr. Zhengyi Le have been awarded a $152K NSF grant</a></h3>
+  
+  <p style="font-size:80%;color:#666;margin:0"><month>August</month>
+  <day-of-month>1</day-of-month>, 
+                    <year>2010</year></p><p>Professor Fillia Makedon (PI) and Dr. Zhengyi Le have been awarded a $152K NSF grant for their proposal "EAGER: An Exploratory Pilot Project to Build an Intelligent Human-Computer Interface System for Neurological Disorder Assessment and Rehabilitation". </p>
+  </div>
+  </div>
+  
+  <div class="news-item">
+  <div class="news-featured-left">
+  <a href="/news-highlights/2004-2012/2010-03-new-faculty.php"><img alt="New Faculty Member Joined CSE Department" class="floatleft" height="88" src="/_images/old-news-images/88/Mariottini.png" width="88"/></a>
+  </div>
+  <div class="news-featured-right">
+  <h3><a href="/news-highlights/2004-2012/2010-03-new-faculty.php">New Faculty Member Joined CSE Department</a></h3>
+  
+  <p style="font-size:80%;color:#666;margin:0"><month>March</month>
+  <day-of-month>31</day-of-month>, 
+                    <year>2010</year></p><p>The CSE department welcome a new faculty member, Dr. Gian Luca Marriottini. Dr. Mariottini will join us in the Fall of 2010 as an Assistant Professor. </p>
+  </div>
+  </div>
+  
+  <div class="news-item">
+  <div class="news-featured-left">
+  <a href="/news-highlights/2004-2012/2010-02-wright-career-award.php"><img alt="Assistant Professor Matthew Wright Wins CAREER Award" class="floatleft" height="88" src="/_images/old-news-images/88/wright.jpg" width="88"/></a>
+  </div>
+  <div class="news-featured-right">
+  <h3><a href="/news-highlights/2004-2012/2010-02-wright-career-award.php">Assistant Professor Matthew Wright Wins CAREER Award</a></h3>
+  
+  <p style="font-size:80%;color:#666;margin:0"><month>February</month>
+  <day-of-month>17</day-of-month>, 
+                    <year>2010</year></p><p>Assistant Professor Matthew Wright recently received a five-year, $499,880 Faculty Early Career Development (CAREER) award from the National Science Foundation (NSF) for his research project entitled, "anon.next: Privacy-Enabled Routing in the Next-Generation Internet." </p>
+  </div>
+  </div>
+  
+  <div class="news-item">
+  <div class="news-featured-left">
+  <a href="/news-highlights/2004-2012/2009-11-makedon-nsf-grant.php"><img alt="Professor Fillia Makedon received $722K NSF grant from NSF" class="floatleft" height="88" src="/_images/old-news-images/88/makedon.jpg" width="88"/></a>
+  </div>
+  <div class="news-featured-right">
+  <h3><a href="/news-highlights/2004-2012/2009-11-makedon-nsf-grant.php">Professor Fillia Makedon received $722K NSF grant from NSF</a></h3>
+  
+  <p style="font-size:80%;color:#666;margin:0"><month>November</month>
+  <day-of-month>3</day-of-month>, 
+                    <year>2009</year></p><p>Professor Fillia Makedon (PI) and Vassilis Athitsos, Heng Huang, Zhengyi Le and Dan Popa (Co-PIs) have been awarded a $722K NSF grant for their proposal "MRI/Dev.: Next Generation Multimodal Data Management Human-Sensing Instrument for Trustworthy Research Collaboration and Quality of Life Improvement".</p>
+  </div>
+  </div>
+  
+  <div class="news-item">
+  <div class="news-featured-left">
+  <a href="/news-highlights/2004-2012/2009-08-trustworth-intrusion-monitoring-wireless.php"><img alt="New NSF grant awarded for Dr. Donggang Liu and Dr. Matthew Wright " class="floatleft" height="88" src="/_images/old-news-images/88/liu.jpg" width="88"/></a>
+  </div>
+  <div class="news-featured-right">
+  <h3><a href="/news-highlights/2004-2012/2009-08-trustworth-intrusion-monitoring-wireless.php">New NSF grant awarded for Dr. Donggang Liu and Dr. Matthew Wright </a></h3>
+  
+  <p style="font-size:80%;color:#666;margin:0"><month>August</month>
+  <day-of-month>30</day-of-month>, 
+                    <year>2009</year></p><p>Dr. Donggang Liu (PI) and Dr. Matthew Wright (co-PI) have been awarded an NSF grant for their proposal "TC:Small: Towards Trustworthy Intrusion Monitoring Using Wireless Sensor Networks". The amount is $450K for 3 years. </p>
+  </div>
+  </div>
+  
+  <div class="news-item">
+  <div class="news-featured-left">
+  <a href="/news-highlights/2004-2012/2009-08-advanced-combinatorial-testing.php"><img alt="Dr. Jeff Lei received an award from NIST " class="floatleft" height="88" src="/_images/old-news-images/88/lei.jpg" width="88"/></a>
+  </div>
+  <div class="news-featured-right">
+  <h3><a href="/news-highlights/2004-2012/2009-08-advanced-combinatorial-testing.php">Dr. Jeff Lei received an award from NIST </a></h3>
+  
+  <p style="font-size:80%;color:#666;margin:0"><month>August</month>
+  <day-of-month>30</day-of-month>, 
+                    <year>2009</year></p><p>Dr. Jeff Lei (PI) has received an award from NIST for his proposal entitled, “Advanced Combinatorial Testing Techniques”, with a total amount of $248K.</p>
+  </div>
+  </div>
+  
+  <div class="news-item">
+  <div class="news-featured-left">
+  <a href="/news-highlights/2004-2012/2009-10-ahmad-nsf-grants-green-computing.php"><img alt="Professor Ishfaq Ahmad received two NSF grants for his collaborative research projects in &quot;Green Computing&quot; " class="floatleft" height="88" src="/_images/old-news-images/88/ahmad.jpg" width="88"/></a>
+  </div>
+  <div class="news-featured-right">
+  <h3><a href="/news-highlights/2004-2012/2009-10-ahmad-nsf-grants-green-computing.php">Professor Ishfaq Ahmad received two NSF grants for his collaborative research projects in "Green Computing" </a></h3>
+  
+  <p style="font-size:80%;color:#666;margin:0"><month>August</month>
+  <day-of-month>28</day-of-month>, 
+                    <year>2009</year></p><p>Two NSF grants entitled "CSR: Medium: Collaborative Research: GridPac: A Resource Management System for Energy and Performance Optimization on Computational Grids" and "MCDA: Collaborative Research: A Multi-Element and Multi-Objective Optimization Approach for Allocating tasks to Multi-Core Processors" are awarded to Professor Ishfaq Ahmad for his collaborative research projects with several other universities. </p>
+  </div>
+  </div>
+  
+  <div class="news-item">
+  <div class="news-featured-left">
+  <a href="/news-highlights/2004-2012/2009-08-nsf-grants-ding-huang.php"><img alt="Two NSF grants have been awarded to Dr. Chris Ding and Dr. Heng Huang " class="floatleft" height="88" src="/_images/old-news-images/88/ding.jpg" width="88"/></a>
+  </div>
+  <div class="news-featured-right">
+  <h3><a href="/news-highlights/2004-2012/2009-08-nsf-grants-ding-huang.php">Two NSF grants have been awarded to Dr. Chris Ding and Dr. Heng Huang </a></h3>
+  
+  <p style="font-size:80%;color:#666;margin:0"><month>August</month>
+  <day-of-month>15</day-of-month>, 
+                    <year>2009</year></p><p>Dr. Chris Ding (PI) and Dr. Heng Huang (co-PI) have been awarded two NSF grants for their proposals entitled "New Theoretical Foundations of Tensor Applications: Clustering, Error Analysis, Global Convergence, and Robust Formulations" and "Collaborative Research: Nonnegative Matrix Factorizations for Data Mining: Foundations, Capabilities, and Applications". </p>
+  </div>
+  </div>
+  
+  <div class="news-item">
+  <div class="news-featured-left">
+  <a href="/news-highlights/2004-2012/2009-08-air-force-grants.php"><img alt="Dr. Sharma Chakravarchy and Dr. Mohan Kumar got grant from Air Force Research Laboratory " class="floatleft" height="88" src="/_images/old-news-images/88/chakravarthy.jpg" width="88"/></a>
+  </div>
+  <div class="news-featured-right">
+  <h3><a href="/news-highlights/2004-2012/2009-08-air-force-grants.php">Dr. Sharma Chakravarchy and Dr. Mohan Kumar got grant from Air Force Research Laboratory </a></h3>
+  
+  <p style="font-size:80%;color:#666;margin:0"><month>August</month>
+  <day-of-month>14</day-of-month>, 
+                    <year>2009</year></p><p>Dr. Sharma Chakravarthy (PI) and Dr. Mohan Kumar have been awarded a $267k grant from AFRL (Air Force Research Laboratory) for their proposal entitled, "A Distributed Middleware-based Architecture for Fault-Tolerant Computing Over Distributed Repositories". </p>
+  </div>
+  </div>
+  
+  <div class="news-item">
+  <div class="news-featured-left">
+  <a href="/news-highlights/2004-2012/2009-08-gaan-doctoral-fellowships.php"><img alt="&#x201C;GAANN Doctoral Fellowships in Computer Science Specializing in Security&#x201D; was selected for funding. " class="floatleft" height="88" src="/_images/old-news-images/88/ahmad.jpg" width="88"/></a>
+  </div>
+  <div class="news-featured-right">
+  <h3><a href="/news-highlights/2004-2012/2009-08-gaan-doctoral-fellowships.php">“GAANN Doctoral Fellowships in Computer Science Specializing in Security” was selected for funding. </a></h3>
+  
+  <p style="font-size:80%;color:#666;margin:0"><month>August</month>
+  <day-of-month>1</day-of-month>, 
+                    <year>2009</year></p><p>Professor Ishfaq Ahmad (PI) and Phil Cohen, Gautam Das, Dongang Liu, Fillia Makedon, Carter Tiernan and Matthew Wright has been awarded a $522,624 grant by Department of Education for their proposal "GAANN Doctoral Fellowships in Computer Science Specializing in Security". This grant will receive $130,656 matching funds from UTA, creating a total amount of about $652K.</p>
+  </div>
+  </div>
+  
+  <div class="news-item">
+  <div class="news-featured-left">
+  <a href="/news-highlights/2004-2012/2009-06-gas-nsf-grant.php"><img alt="NSF grant awarded to Dr. Gautam Das" class="floatleft" height="88" src="/_images/old-news-images/88/gdas.jpg" width="88"/></a>
+  </div>
+  <div class="news-featured-right">
+  <h3><a href="/news-highlights/2004-2012/2009-06-gas-nsf-grant.php">NSF grant awarded to Dr. Gautam Das</a></h3>
+  
+  <p style="font-size:80%;color:#666;margin:0"><month>June</month>
+  <day-of-month>30</day-of-month>, 
+                    <year>2009</year></p><p>Dr. Gautam Das has been awarded an NSF grant by IIS Division for his proposal entitled "Suppressing Sensitive Aggregates over Hidden Web Databases, a Novel and Urgent Challenge". The amount is $251.186 for 3 years.</p>
+  </div>
+  </div>
+  
+  <div class="news-item">
+  <div class="news-featured-left">
+  <a href="/news-highlights/2004-2012/2009-06-international-conference-on-pervasive-technologies.php"><img alt="1st International Coference On PErvasive Technologies Related to Assistive Environments : PETRA 2008" class="floatleft" height="88" src="/_images/content/cseatutathumb.jpg" width="88"/></a>
+  </div>
+  <div class="news-featured-right">
+  <h3><a href="/news-highlights/2004-2012/2009-06-international-conference-on-pervasive-technologies.php">1st International Coference On PErvasive Technologies Related to Assistive Environments : PETRA 2008</a></h3>
+  
+  <p style="font-size:80%;color:#666;margin:0"><month>June</month>
+  <day-of-month>15</day-of-month>, 
+                    <year>2009</year></p><p>The PETRA Conference brings together different types of technology to address an important social and healthcare issue: as the world's population ages, there is growing interest in solutions for the in- home care of the elderly as well as for the care of people with Alzheimer's, Parkinson's and other disabilities or traumas. </p>
+  </div>
+  </div>
+  
+  <div class="news-item">
+  <div class="news-featured-left">
+  <a href="/news-highlights/2004-2012/2009-04-on-the-move.php"><img alt="CSE On the Move" class="floatleft" height="88" src="/_images/content/cseatutathumb.jpg" width="88"/></a>
+  </div>
+  <div class="news-featured-right">
+  <h3><a href="/news-highlights/2004-2012/2009-04-on-the-move.php">CSE On the Move</a></h3>
+  
+  <p style="font-size:80%;color:#666;margin:0"><month>April</month>
+  <day-of-month>24</day-of-month>, 
+                    <year>2009</year></p><p>April 23-24, 2009 Dr. Arthur Alexander Reyes (CSE dept.), Dr. Atilla Dogan (MAE dept.), and Komkrit Kaewchay (graduate student in Aerospace Engineering) visited RotoMotion LLC in South Carolina to learn how to operate RotoMotion's SR20 and SR30 autonomous helicopters. All the travelers are affiliated with the UTA Autonomous Vehicles Laboratory , which is buying two complete helicopter systems with funds provided by the Texas Workforce Commission. The systems will be used for workforce training and research in rapid-response aerial observation &amp; reconnaissance.</p>
+  </div>
+  </div>
+  
+  <div class="news-item">
+  <div class="news-featured-left">
+  <a href="/news-highlights/2004-2012/2009-04-nsf-doctoral-consortium.php"><img alt="NSF Doctoral Consortium Student-Author Travel Scholarships" class="floatleft" height="88" src="/_images/content/cseatutathumb.jpg" width="88"/></a>
+  </div>
+  <div class="news-featured-right">
+  <h3><a href="/news-highlights/2004-2012/2009-04-nsf-doctoral-consortium.php">NSF Doctoral Consortium Student-Author Travel Scholarships</a></h3>
+  
+  <p style="font-size:80%;color:#666;margin:0"><month>April</month>
+  <day-of-month>15</day-of-month>, 
+                    <year>2009</year></p><p>We expect NSF funding to support a number of graduate student authors to participate in PETRA'08. Funding will be made available of up to $1500 per student to cover his or her expenses.</p>
+  </div>
+  </div>
+  
+  <div class="news-item">
+  <div class="news-featured-left">
+  <a href="/news-highlights/2004-2012/2009-04-new-faculty.php"><img alt="New Faculty in CSE department " class="floatleft" height="88" src="/_images/old-news-images/88/nystrom.jpg" width="88"/></a>
+  </div>
+  <div class="news-featured-right">
+  <h3><a href="/news-highlights/2004-2012/2009-04-new-faculty.php">New Faculty in CSE department </a></h3>
+  
+  <p style="font-size:80%;color:#666;margin:0"><month>April</month>
+  <day-of-month>1</day-of-month>, 
+                    <year>2009</year></p><p>In 2009, we hired Dr. Nathaniel Nystrom as Assistant Professor in the CSE Department</p>
+  </div>
+  </div>
+  
+  <div class="news-item">
+  <div class="news-featured-left">
+  <a href="/news-highlights/2004-2012/2009-03-book-chakravarthy.php"><img alt="New Book By Prof. Sharma Chakravarthy" class="floatleft" height="88" src="/_images/old-news-images/88/chakravarthy.jpg" width="88"/></a>
+  </div>
+  <div class="news-featured-right">
+  <h3><a href="/news-highlights/2004-2012/2009-03-book-chakravarthy.php">New Book By Prof. Sharma Chakravarthy</a></h3>
+  
+  <p style="font-size:80%;color:#666;margin:0"><month>March</month>
+  <day-of-month>15</day-of-month>, 
+                    <year>2009</year></p><p>Professor Chakravarthy's book on "Stream Data Processing: A Quality of Service Perspective" has now been published.</p>
+  </div>
+  </div>
+  
+  <div class="news-item">
+  <div class="news-featured-left">
+  <a href="/news-highlights/2004-2012/2009-21-engineering-reception.php"><img alt="CSE winners from the Engineering Reception and Banquet" class="floatleft" height="88" src="/_images/content/cseatutathumb.jpg" width="88"/></a>
+  </div>
+  <div class="news-featured-right">
+  <h3><a href="/news-highlights/2004-2012/2009-21-engineering-reception.php">CSE winners from the Engineering Reception and Banquet</a></h3>
+  
+  <p style="font-size:80%;color:#666;margin:0"><month>February</month>
+  <day-of-month>21</day-of-month>, 
+                    <year>2009</year></p><p>On February 20, 2009, the E-Week Engineering Reception and Banquet was held in the UC Bluebonnet with great success. Several faculty and students from the CSE department received awards. </p>
+  </div>
+  </div>
+  
+  <div class="news-item">
+  <div class="news-featured-left">
+  <a href="/news-highlights/2004-2012/2009-02-cse-faculty-book.php"><img alt="CSE faculty have Operating Systems book published" class="floatleft" height="88" src="/_images/old-news-images/88/elmasri.jpg" width="88"/></a>
+  </div>
+  <div class="news-featured-right">
+  <h3><a href="/news-highlights/2004-2012/2009-02-cse-faculty-book.php">CSE faculty have Operating Systems book published</a></h3>
+  
+  <p style="font-size:80%;color:#666;margin:0"><month>February</month>
+  <day-of-month>15</day-of-month>, 
+                    <year>2009</year></p><p>Dr. Ramez Elmasri, A.G. Carrick (formerly a lecturer in UTA CSE) and David Levine had their book Operating Systems: A Spiral Approach published by McGraw Hill Higher Education. </p>
+  </div>
+  </div>
+  
+  <div class="news-item">
+  <div class="news-featured-left">
+  <a href="/news-highlights/2004-2012/2008-09-nsf-award.php"><img alt="NSF award for a Collaborative Research" class="floatleft" height="88" src="/_images/old-news-images/88/ding.jpg" width="88"/></a>
+  </div>
+  <div class="news-featured-right">
+  <h3><a href="/news-highlights/2004-2012/2008-09-nsf-award.php">NSF award for a Collaborative Research</a></h3>
+  
+  <p style="font-size:80%;color:#666;margin:0"><month>September</month>
+  <day-of-month>15</day-of-month>, 
+                    <year>2008</year></p><p>Congratulations to Professor Chris Ding for a new NSF award that is coming. The NSF/ DMS program will award Prof. Ding and his colleague Prof. Li from FIU, $100K ($56K for UTA and $44 for FIU) for their proposed work on "Nonnegative matrix factorization for data mining". </p>
+  </div>
+  </div>
+  
+  <div class="news-item">
+  <div class="news-featured-left">
+  <a href="/news-highlights/2004-2012/2008-09-das-zhang.php"><img alt="NSF Grant awarded for Dr. Gautam Das and Dr. Nan Zhang" class="floatleft" height="88" src="/_images/old-news-images/88/gdas.jpg" width="88"/></a>
+  </div>
+  <div class="news-featured-right">
+  <h3><a href="/news-highlights/2004-2012/2008-09-das-zhang.php">NSF Grant awarded for Dr. Gautam Das and Dr. Nan Zhang</a></h3>
+  
+  <p style="font-size:80%;color:#666;margin:0"><month>September</month>
+  <day-of-month>1</day-of-month>, 
+                    <year>2008</year></p><p>Professors Dr. Gautam Das and Dr. Nan Zhang's proposal for reserach on "Data Analytics over Hidden Databases" has been awarded with NSF Grant. The grant amount is $120,001 for the period of 18 months starting from 9/1/2008. Dr. Das is th Principal Investigator and Dr. Zhang is the Co-PI.</p>
+  </div>
+  </div>
+  
+  <div class="news-item">
+  <div class="news-featured-left">
+  <a href="/news-highlights/2004-2012/2008-09-nsf-recommended-award.php"><img alt="NSF proposal recommended for an award " class="floatleft" height="88" src="/_images/old-news-images/88/vassilis.jpg" width="88"/></a>
+  </div>
+  <div class="news-featured-right">
+  <h3><a href="/news-highlights/2004-2012/2008-09-nsf-recommended-award.php">NSF proposal recommended for an award </a></h3>
+  
+  <p style="font-size:80%;color:#666;margin:0"><month>September</month>
+  <day-of-month>1</day-of-month>, 
+                    <year>2008</year></p><p>Congratulations to Professors Vassilis Athitsos (PI) and Dr. Gautam Das (co-PI) whose NSF proposal is being recommended for an award by the IIS Division of NSF. </p>
+  </div>
+  </div>
+  
+  <div class="news-item">
+  <div class="news-featured-left">
+  <a href="/news-highlights/2004-2012/2008-09-li-repg.php"><img alt="Dr. Chengkai Li has received a $10,000 Research Enhancement Program Grant" class="floatleft" height="88" src="/_images/old-news-images/88/chengkai.jpg" width="88"/></a>
+  </div>
+  <div class="news-featured-right">
+  <h3><a href="/news-highlights/2004-2012/2008-09-li-repg.php">Dr. Chengkai Li has received a $10,000 Research Enhancement Program Grant</a></h3>
+  
+  <p style="font-size:80%;color:#666;margin:0"><month>September</month>
+  <day-of-month>1</day-of-month>, 
+                    <year>2008</year></p><p>University of Texas at Arlington Assistant Professor of Computer Science &amp; Engineering Dr. Chengkai Li has received a $10,000 Research Enhancement Program grant to conduct research on problems associated with mashing up information on the Web.</p>
+  </div>
+  </div>
+  
+  <div class="news-item">
+  <div class="news-featured-left">
+  <a href="/news-highlights/2004-2012/2008-08-nsf-distributed-opportunistic-computing.php"><img alt="NSF grant for research on Distributed Opportunistic Computing awarded" class="floatleft" height="88" src="/_images/old-news-images/88/kumar.jpg" width="88"/></a>
+  </div>
+  <div class="news-featured-right">
+  <h3><a href="/news-highlights/2004-2012/2008-08-nsf-distributed-opportunistic-computing.php">NSF grant for research on Distributed Opportunistic Computing awarded</a></h3>
+  
+  <p style="font-size:80%;color:#666;margin:0"><month>August</month>
+  <day-of-month>26</day-of-month>, 
+                    <year>2008</year></p><p>Congratulations to Professors Dr. Mohan Kumar (PI) and Dr. Yonghe Liu (co-PI) whose NSF proposal is being recommended for an award by the CISE, CNS Division of NSF for research in "DOC - Distributed Opportunistic Computing"</p>
+  </div>
+  </div>
+  
+  <div class="news-item">
+  <div class="news-featured-left">
+  <a href="/news-highlights/2004-2012/2008-08-nsf-collaborative-virtual-observation-in-dynamic.php"><img alt="NSF award for research on Collaborative Virtual Observation in Dynamic Environments ($336,817 for 3 years)" class="floatleft" height="88" src="/_images/old-news-images/88/kumar.jpg" width="88"/></a>
+  </div>
+  <div class="news-featured-right">
+  <h3><a href="/news-highlights/2004-2012/2008-08-nsf-collaborative-virtual-observation-in-dynamic.php">NSF award for research on Collaborative Virtual Observation in Dynamic Environments ($336,817 for 3 years)</a></h3>
+  
+  <p style="font-size:80%;color:#666;margin:0"><month>August</month>
+  <day-of-month>15</day-of-month>, 
+                    <year>2008</year></p><p>Congratulations to Professors Dr. Mohan Kumar (PI) and Dr. Yonghe Liu (co-PI) who are awarded with NSF award for research in Collaborative Virtual Observation in Dynamic Environments by NSF Electrical, Communications and Cyber Systems (ECCS) Division.</p>
+  </div>
+  </div>
+  
+  <div class="news-item">
+  <div class="news-featured-left">
+  <a href="/news-highlights/2004-2012/2008-07-01-new-faculty-hired.php"><img alt="New Faculty Hired" class="floatleft" height="88" src="/_images/old-news-images/88/christoph.jpg" width="88"/></a>
+  </div>
+  <div class="news-featured-right">
+  <h3><a href="/news-highlights/2004-2012/2008-07-01-new-faculty-hired.php">New Faculty Hired</a></h3>
+  
+  <p style="font-size:80%;color:#666;margin:0"><month>July</month>
+  <day-of-month>1</day-of-month>, 
+                    <year>2008</year></p><p>It is with great pleasure that we announce the hiring for Dr. Christoph Csallner as Assistant Professor in the CSE Department</p>
+  </div>
+  </div>
+  
+  <div class="news-item">
+  <div class="news-featured-left">
+  <a href="/news-highlights/2004-2012/2008-04-first-bigd-regional-symposium.php"><img alt="The First bigD* Regional Symposium on Data and Information Management" class="floatleft" height="88" src="/_images/content/cseatutathumb.jpg" width="88"/></a>
+  </div>
+  <div class="news-featured-right">
+  <h3><a href="/news-highlights/2004-2012/2008-04-first-bigd-regional-symposium.php">The First bigD* Regional Symposium on Data and Information Management</a></h3>
+  
+  <p style="font-size:80%;color:#666;margin:0"><month>April</month>
+  <day-of-month>19</day-of-month>, 
+                    <year>2008</year></p><p>The Data Management Group in CSE Department is organizing the first bigD* Regional Symposium on Data and Information Management. The goal of this symposium is to foster the collaborations and interactions among a large number of research groups working on topics related to data and information management</p>
+  </div>
+  </div>
+  
+  <div class="news-item">
+  <div class="news-featured-left">
+  <a href="/news-highlights/2004-2012/2008-02-8th-annual-high-school-robot-programming.php"><img alt="8th Annual High School Robot Programming Contest Lets Students Show Off Their Skills At UTA" class="floatleft" height="88" src="/_images/content/cseatutathumb.jpg" width="88"/></a>
+  </div>
+  <div class="news-featured-right">
+  <h3><a href="/news-highlights/2004-2012/2008-02-8th-annual-high-school-robot-programming.php">8th Annual High School Robot Programming Contest Lets Students Show Off Their Skills At UTA</a></h3>
+  
+  <p style="font-size:80%;color:#666;margin:0"><month>February</month>
+  <day-of-month>9</day-of-month>, 
+                    <year>2008</year></p><p>Little yellow robots buzzed around the Nedderman Hall atrium at the University of Texas at Arlington on Saturday, February 9th, 2008. The robots were programmed and built by high school students to compete in the High School Robot Programming Contest, RoPro, sponsored by the Computer Science and Engineering Department at UTA (CSE@UTA). </p>
+  </div>
+  </div>
+  
+  <div class="news-item">
+  <div class="news-featured-left">
+  <a href="/news-highlights/2004-2012/2007-12-ahmad-becomes-fellow-of-ieee.php"><img alt="Dr. Ishfaq Ahmad becomes a Fellow of the IEEE" class="floatleft" height="88" src="/_images/old-news-images/88/ahmad.jpg" width="88"/></a>
+  </div>
+  <div class="news-featured-right">
+  <h3><a href="/news-highlights/2004-2012/2007-12-ahmad-becomes-fellow-of-ieee.php">Dr. Ishfaq Ahmad becomes a Fellow of the IEEE</a></h3>
+  
+  <p style="font-size:80%;color:#666;margin:0"><month>December</month>
+  <day-of-month>21</day-of-month>, 
+                    <year>2007</year></p><p>Dec 21, University of Texas at Arlington Professor of Computer Science &amp; Engineering Ishfaq Ahmad has been elevated to the rank of Fellow of the Institute of Electrical &amp; Electronics Engineers (IEEE). </p>
+  </div>
+  </div>
+  
+  <div class="news-item">
+  <div class="news-featured-left">
+  <a href="/news-highlights/2004-2012/2007-11-doj-grant-for-personnel-locator-research.php"><img alt="$265K Department of Justice Grant for Personnel Locator Research" class="floatleft" height="88" src="/_images/content/cseatutathumb.jpg" width="88"/></a>
+  </div>
+  <div class="news-featured-right">
+  <h3><a href="/news-highlights/2004-2012/2007-11-doj-grant-for-personnel-locator-research.php">$265K Department of Justice Grant for Personnel Locator Research</a></h3>
+  
+  <p style="font-size:80%;color:#666;margin:0"><month>November</month>
+  <day-of-month>1</day-of-month>, 
+                    <year>2007</year></p><p>The CommTech Program in the National Institute of Justice (NIJ), Department of Justice, has awarded researchers in the Computer Science &amp; Engineering Department a $264,879 grant to develop a mesh network based solution to identify and locate strategic personnel within a secure area such as a police precinct. </p>
+  </div>
+  </div>
+  
+  <div class="news-item">
+  <div class="news-featured-left">
+  <a href="/news-highlights/2004-2012/2007-10-nsf-grant-technology-asl.php"><img alt="$900,000 NSF Grant For Technology To Study American Sign Language" class="floatleft" height="88" src="/_images/old-news-images/88/vassilis.jpg" width="88"/></a>
+  </div>
+  <div class="news-featured-right">
+  <h3><a href="/news-highlights/2004-2012/2007-10-nsf-grant-technology-asl.php">$900,000 NSF Grant For Technology To Study American Sign Language</a></h3>
+  
+  <p style="font-size:80%;color:#666;margin:0"><month>October</month>
+  <day-of-month>29</day-of-month>, 
+                    <year>2007</year></p><p>Assistant Professor Vassilis Athitsos and his collaborators have been awarded a three-year, $900,000 National Science Foundation (NSF) grant to develop new technology for learning American Sign Language (ASL). </p>
+  </div>
+  </div>
+  
+  <div class="news-item">
+  <div class="news-featured-left">
+  <a href="/news-highlights/2004-2012/2007-09-makedon-nsf-grant.php"><img alt="Dr. Fillia Makedon received a $500K grant from the National Science Foundation" class="floatleft" height="88" src="/_images/old-news-images/88/makedon.jpg" width="88"/></a>
+  </div>
+  <div class="news-featured-right">
+  <h3><a href="/news-highlights/2004-2012/2007-09-makedon-nsf-grant.php">Dr. Fillia Makedon received a $500K grant from the National Science Foundation</a></h3>
+  
+  <p style="font-size:80%;color:#666;margin:0"><month>September</month>
+  <day-of-month>14</day-of-month>, 
+                    <year>2007</year></p><p>Dr. Fillia Makedon has received a $500K grant from the National Science Foundation as the principle investigator to study trustworthy recommendation systems. </p>
+  </div>
+  </div>
+  
+  <div class="news-item">
+  <div class="news-featured-left">
+  <a href="/news-highlights/2004-2012/2007-09-das-ieee-engineer-of-the-year.php"><img alt="Professor Sajal Das wins IEEE Engineer of the Year Award" class="floatleft" height="88" src="/_images/content/cseatutathumb.jpg" width="88"/></a>
+  </div>
+  <div class="news-featured-right">
+  <h3><a href="/news-highlights/2004-2012/2007-09-das-ieee-engineer-of-the-year.php">Professor Sajal Das wins IEEE Engineer of the Year Award</a></h3>
+  
+  <p style="font-size:80%;color:#666;margin:0"><month>September</month>
+  <day-of-month>14</day-of-month>, 
+                    <year>2007</year></p><p>Dr. Sajal Das was awarded the "IEEE Engineer of the Year Award" by the IEEE Ft. Worth Section during the Metrocom 2007 Conference held in Arlington. This award recognizes the recipient's leadership and technical contributions in engineering, community and societal activities. </p>
+  </div>
+  </div>
+  
+  <div class="news-item">
+  <div class="news-featured-left">
+  <a href="/news-highlights/2004-2012/2007-02-comic.php"><img alt="Talk by online comic and graphic novel creator Scott McCloud" class="floatleft" height="88" src="/_images/content/cseatutathumb.jpg" width="88"/></a>
+  </div>
+  <div class="news-featured-right">
+  <h3><a href="/news-highlights/2004-2012/2007-02-comic.php">Talk by online comic and graphic novel creator Scott McCloud</a></h3>
+  
+  <p style="font-size:80%;color:#666;margin:0"><month>February</month>
+  <day-of-month>1</day-of-month>, 
+                    <year>2007</year></p><p>The Department of Computer Science &amp; Engineering and Sabre Holdings present online comic and graphic novel creator Scott McCloud, currently on his "Making Comics 50 State Tour". </p>
+  </div>
+  </div>
+  
+  <div class="news-item">
+  <div class="news-featured-left">
+  <a href="/news-highlights/2004-2012/2007-jeff-smith.php"><img alt="CSE Alumnus Dr. Jeff Smith Receives National Foundation Award" class="floatleft" height="88" src="/_images/content/cseatutathumb.jpg" width="88"/></a>
+  </div>
+  <div class="news-featured-right">
+  <h3><a href="/news-highlights/2004-2012/2007-jeff-smith.php">CSE Alumnus Dr. Jeff Smith Receives National Foundation Award</a></h3>
+  
+  <p style="font-size:80%;color:#666;margin:0"><month>January</month>
+  <day-of-month>30</day-of-month>, 
+                    <year>2007</year></p><p>Jeff Smith, a distinguished alumnus of the Department of Computer Science and Engineering at UTA, has received the Kauffman Foundation's Community Award for his successful efforts to improve the economic conditions of the citizens of Magote, a mountain village in Honduras</p>
+  </div>
+  </div>
+  
+  <div class="news-item">
+  <div class="news-featured-left">
+  <a href="/news-highlights/2004-2012/2006-11-makedon-named-chair.php"><img alt="Dr. Fillia Makedon Named Chair of CSE" class="floatleft" height="88" src="/_images/old-news-images/88/makedon.jpg" width="88"/></a>
+  </div>
+  <div class="news-featured-right">
+  <h3><a href="/news-highlights/2004-2012/2006-11-makedon-named-chair.php">Dr. Fillia Makedon Named Chair of CSE</a></h3>
+  
+  <p style="font-size:80%;color:#666;margin:0"><month>November</month>
+  <day-of-month>1</day-of-month>, 
+                    <year>2006</year></p><p>Dr. Fillia Makedon, a leading researcher in her field, has been named chair of the Department of Computer Science and Engineering at the University of Texas at Arlington. </p>
+  </div>
+  </div>
+  
+  <div class="news-item">
+  <div class="news-featured-left">
+  <a href="/news-highlights/2004-2012/2006-11-acm-scr-programming-competition.php"><img alt="UTA Co-Hosts ACM South Central Regional Programming Competition Nov. 3-4" class="floatleft" height="88" src="/_images/content/cseatutathumb.jpg" width="88"/></a>
+  </div>
+  <div class="news-featured-right">
+  <h3><a href="/news-highlights/2004-2012/2006-11-acm-scr-programming-competition.php">UTA Co-Hosts ACM South Central Regional Programming Competition Nov. 3-4</a></h3>
+  
+  <p style="font-size:80%;color:#666;margin:0"><month>November</month>
+  <day-of-month>1</day-of-month>, 
+                    <year>2006</year></p><p>The Department of Computer Science and Engineering at UTA joins Louisiana State University in hosting on the UTA campus Nov. 3-4 the 2006 ACM South Central USA Programming Contest.</p>
+  </div>
+  </div>
+  
+  <div class="news-item">
+  <div class="news-featured-left">
+  <a href="/news-highlights/2004-2012/2006-10-cse-distinguished-lecture.php"><img alt="NSF Project Director, Guru Parulkar, Speaks Oct. 18 on Major Research To Create New Internet Architectures and Distributed Systems" class="floatleft" height="88" src="/_images/content/cseatutathumb.jpg" width="88"/></a>
+  </div>
+  <div class="news-featured-right">
+  <h3><a href="/news-highlights/2004-2012/2006-10-cse-distinguished-lecture.php">NSF Project Director, Guru Parulkar, Speaks Oct. 18 on Major Research To Create New Internet Architectures and Distributed Systems</a></h3>
+  
+  <p style="font-size:80%;color:#666;margin:0"><month>October</month>
+  <day-of-month>10</day-of-month>, 
+                    <year>2006</year></p><p>Dr. Guru Parulkar, a program director in the National Science Foundation's Computer and Network Systems division, will speak at UTA as a CSE Distinguished Lecturer on Wednesday, Oct. 18. </p>
+  </div>
+  </div>
+  
+  <div class="news-item">
+  <div class="news-featured-left">
+  <a href="/news-highlights/2004-2012/2006-10-pervasive-computing.php"><img alt="1.6 Million Research Project Funded by NSF Seeks to Develop Secure Infrastructures " class="floatleft" height="88" src="/_images/content/cseatutathumb.jpg" width="88"/></a>
+  </div>
+  <div class="news-featured-right">
+  <h3><a href="/news-highlights/2004-2012/2006-10-pervasive-computing.php">1.6 Million Research Project Funded by NSF Seeks to Develop Secure Infrastructures </a></h3>
+  
+  <p style="font-size:80%;color:#666;margin:0"><month>October</month>
+  <day-of-month>1</day-of-month>, 
+                    <year>2006</year></p><p>Meeting at an annual workshop to discuss their research project, which is funded by the National Science Foundation, are researchers from UTA, Pennsylvania State University and the University of Kentucky.</p>
+  </div>
+  </div>
+  
+  <div class="news-item">
+  <div class="news-featured-left">
+  <a href="/news-highlights/2004-2012/2006-09-charlene-li.php"><img alt="Forrester Research Analyst to Speak Sept. 28 on Future Impact of Blogs, Podcasting and Other Social Computing Technologies " class="floatleft" height="88" src="/_images/content/cseatutathumb.jpg" width="88"/></a>
+  </div>
+  <div class="news-featured-right">
+  <h3><a href="/news-highlights/2004-2012/2006-09-charlene-li.php">Forrester Research Analyst to Speak Sept. 28 on Future Impact of Blogs, Podcasting and Other Social Computing Technologies </a></h3>
+  
+  <p style="font-size:80%;color:#666;margin:0"><month>September</month>
+  <day-of-month>1</day-of-month>, 
+                    <year>2006</year></p><p>Charlene Li, a principal analyst for Forrester Research, a leading global technology and market research company that forecasts technology's impact on business and consumers, will speak at UTA Sept. 28. </p>
+  </div>
+  </div>
+  
+  <div class="news-item">
+  <div class="news-featured-left">
+  <a href="/news-highlights/2004-2012/2006-08-gao-nsf-early-disease-detection.php"><img alt="Dr. Jean Gao Receives NSF Grant to Research Early Disease Detection " class="floatleft" height="88" src="/_images/old-news-images/88/gao.jpg" width="88"/></a>
+  </div>
+  <div class="news-featured-right">
+  <h3><a href="/news-highlights/2004-2012/2006-08-gao-nsf-early-disease-detection.php">Dr. Jean Gao Receives NSF Grant to Research Early Disease Detection </a></h3>
+  
+  <p style="font-size:80%;color:#666;margin:0"><month>August</month>
+  <day-of-month>30</day-of-month>, 
+                    <year>2006</year></p><p>Dr. Jean Gao has received a $356,000 grant from the National Science Foundation as the principal investigator to study biomarkers that help identify early disease detection and help in the discovery of new drugs.</p>
+  </div>
+  </div>
+  
+  <div class="news-item">
+  <div class="news-featured-left">
+  <a href="/news-highlights/2004-2012/2006-08-national-auv-competition.php"><img alt="UTA Student Team Scores Big Again in National AUV Competition " class="floatleft" height="88" src="/_images/content/cseatutathumb.jpg" width="88"/></a>
+  </div>
+  <div class="news-featured-right">
+  <h3><a href="/news-highlights/2004-2012/2006-08-national-auv-competition.php">UTA Student Team Scores Big Again in National AUV Competition </a></h3>
+  
+  <p style="font-size:80%;color:#666;margin:0"><month>August</month>
+  <day-of-month>1</day-of-month>, 
+                    <year>2006</year></p><p>A team of engineering students from the University of Texas at Arlington won third place in the 2006 national AUVSI Student Unmanned Aerial Vehicle Competition. A UTA team won first place in the national student competition last year.</p>
+  </div>
+  </div>
+  
+  <div class="news-item">
+  <div class="news-featured-left">
+  <a href="/news-highlights/2004-2012/2006-05-1.7m-research-funding.php"><img alt="CSE Receives $1.7 million in Research Funding " class="floatleft" height="88" src="/_images/content/cseatutathumb.jpg" width="88"/></a>
+  </div>
+  <div class="news-featured-right">
+  <h3><a href="/news-highlights/2004-2012/2006-05-1.7m-research-funding.php">CSE Receives $1.7 million in Research Funding </a></h3>
+  
+  <p style="font-size:80%;color:#666;margin:0"><month>May</month>
+  <day-of-month>1</day-of-month>, 
+                    <year>2006</year></p><p>CSE has received $1.7 million in research grants so far in 2005-2006. The awards include $602,284 for research on integrated cognitive systems from the Institute for the Study of Learning and Expertise, $386,553 from TxDOT, $275,000 from the NSF to develop new applications integrating stream and event processing and $100,000 for a security framework research project funded by the Texas Advanced Research Program.</p>
+  </div>
+  </div>
+  
+  <div class="news-item">
+  <div class="news-featured-left">
+  <a href="/news-highlights/2004-2012/2006-04-microsoft-design-competition.php"><img alt="CSE Team is National Finalist in Microsoft Software Design Competition " class="floatleft" height="88" src="/_images/content/cseatutathumb.jpg" width="88"/></a>
+  </div>
+  <div class="news-featured-right">
+  <h3><a href="/news-highlights/2004-2012/2006-04-microsoft-design-competition.php">CSE Team is National Finalist in Microsoft Software Design Competition </a></h3>
+  
+  <p style="font-size:80%;color:#666;margin:0"><month>April</month>
+  <day-of-month>15</day-of-month>, 
+                    <year>2006</year></p><p>A team of UTA CSE students was among the nation's top 15 university teams who competed in Microsoft's 2006 Imagine Cup national finals in May. The finalists beat out 300 university teams nationally to place as finalists in the software design competition.</p>
+  </div>
+  </div>
+  
+  <div class="news-item">
+  <div class="news-featured-left">
+  <a href="/news-highlights/2004-2012/2006-04-teaching-excellence.php"><img alt="Professors Das, Charavarthy, Huber Recognized for Research, Teaching Excellence " class="floatleft" height="88" src="/_images/content/cseatutathumb.jpg" width="88"/></a>
+  </div>
+  <div class="news-featured-right">
+  <h3><a href="/news-highlights/2004-2012/2006-04-teaching-excellence.php">Professors Das, Charavarthy, Huber Recognized for Research, Teaching Excellence </a></h3>
+  
+  <p style="font-size:80%;color:#666;margin:0"><month>April</month>
+  <day-of-month>1</day-of-month>, 
+                    <year>2006</year></p><p>Professor Sajal Das has been named to UTA's Academy of Distinguished Scholars in recognition of his outstanding scholarly achievements. Professor Sharma Chakravarthy received the College of Engineering's Excellence in Research Award in recognition of superior scholarship. Assistant Professor Manfred Huber received the Lockheed Martin Aeronautics Excellence in Teaching Award in recognition for being a superior teacher.</p>
+  </div>
+  </div>
+  
+  <div class="news-item">
+  <div class="news-featured-left">
+  <a href="/news-highlights/2004-2012/2006-03-chakravarthy-nsf-grant-stream-and-event-processing.php"><img alt="Dr. Chakravarthy receives $275,000 NSF Grant For Stream and Event Processing Research&#9;" class="floatleft" height="88" src="/_images/old-news-images/88/chakravarthy.jpg" width="88"/></a>
+  </div>
+  <div class="news-featured-right">
+  <h3><a href="/news-highlights/2004-2012/2006-03-chakravarthy-nsf-grant-stream-and-event-processing.php">Dr. Chakravarthy receives $275,000 NSF Grant For Stream and Event Processing Research	</a></h3>
+  
+  <p style="font-size:80%;color:#666;margin:0"><month>March</month>
+  <day-of-month>15</day-of-month>, 
+                    <year>2006</year></p><p>CSE Professor Sharma Chakravarthy has received a $275,000 grant from the National Science Foundation to integrate stream processing with event processing to meet the needs of new applications for intelligent home monitoring, accident monitoring on highways and in other areas.</p>
+  </div>
+  </div>
+  
+  <div class="news-item">
+  <div class="news-featured-left">
+  <a href="/news-highlights/2004-2012/2006-03-gao-promising-young-researcher.php"><img alt="Dr. Jean Gao Recognized as One of Nation's Promising Young Researchers by NSF&#9;" class="floatleft" height="88" src="/_images/old-news-images/88/gao.jpg" width="88"/></a>
+  </div>
+  <div class="news-featured-right">
+  <h3><a href="/news-highlights/2004-2012/2006-03-gao-promising-young-researcher.php">Dr. Jean Gao Recognized as One of Nation's Promising Young Researchers by NSF	</a></h3>
+  
+  <p style="font-size:80%;color:#666;margin:0"><month>March</month>
+  <day-of-month>1</day-of-month>, 
+                    <year>2006</year></p><p>Dr. Jean Gao has been recognized by the National Science Foundation with one of the nation's top honors for investigators in the early stages of careers who are considered likely to become America's research leaders.</p>
+  </div>
+  </div>
+  
+  <div class="news-item">
+  <div class="news-featured-left">
+  <a href="/news-highlights/2004-2012/2006-02-industry-leaders-ti-intell.php"><img alt="Industry Leaders from Texas Instruments, Intel to Speak  In CSE Distinguished Lecturer Series March 29, April 10 " class="floatleft" height="88" src="/_images/content/cseatutathumb.jpg" width="88"/></a>
+  </div>
+  <div class="news-featured-right">
+  <h3><a href="/news-highlights/2004-2012/2006-02-industry-leaders-ti-intell.php">Industry Leaders from Texas Instruments, Intel to Speak  In CSE Distinguished Lecturer Series March 29, April 10 </a></h3>
+  
+  <p style="font-size:80%;color:#666;margin:0"><month>February</month>
+  <day-of-month>28</day-of-month>, 
+                    <year>2006</year></p><p>Dr. Hans Stork, chief technology officer at Texas Instruments, will speak in the CSE Distinguished Lecturer Series on March 29. He is responsible for furthering TI's position as a top developer of advanced silicon technology and for the company's long-term research and development strategy.</p>
+  </div>
+  </div>
+  
+  <div class="news-item">
+  <div class="news-featured-left">
+  <a href="/news-highlights/2004-2012/2006-02-che-nsf.php"><img alt="Dr. Hao Che was awarded a $64,200 research grant from NSF " class="floatleft" height="88" src="/_images/content/cseatutathumb.jpg" width="88"/></a>
+  </div>
+  <div class="news-featured-right">
+  <h3><a href="/news-highlights/2004-2012/2006-02-che-nsf.php">Dr. Hao Che was awarded a $64,200 research grant from NSF </a></h3>
+  
+  <p style="font-size:80%;color:#666;margin:0"><month>February</month>
+  <day-of-month>27</day-of-month>, 
+                    <year>2006</year></p><p>Assistant Professor Hao Che was awarded a $64,200 research grant from the National Science Foundation</p>
+  </div>
+  </div>
+  
+  <div class="news-item">
+  <div class="news-featured-left">
+  <a href="/news-highlights/2004-2012/2006-02-acm-conference.php"><img alt="UTA ACM Student Chapter Hosts National Student Conference March 3-4 " class="floatleft" height="88" src="/_images/content/cseatutathumb.jpg" width="88"/></a>
+  </div>
+  <div class="news-featured-right">
+  <h3><a href="/news-highlights/2004-2012/2006-02-acm-conference.php">UTA ACM Student Chapter Hosts National Student Conference March 3-4 </a></h3>
+  
+  <p style="font-size:80%;color:#666;margin:0"><month>February</month>
+  <day-of-month>25</day-of-month>, 
+                    <year>2006</year></p><p>One paragraph short description of story (NO HTML).</p>
+  </div>
+  </div>
+  
+  <div class="news-item">
+  <div class="news-featured-left">
+  <a href="/news-highlights/2004-2012/2006-02-cse-robot-hs.php"><img alt="CSE High School Robot Programming Competition Big Success " class="floatleft" height="88" src="/_images/content/cseatutathumb.jpg" width="88"/></a>
+  </div>
+  <div class="news-featured-right">
+  <h3><a href="/news-highlights/2004-2012/2006-02-cse-robot-hs.php">CSE High School Robot Programming Competition Big Success </a></h3>
+  
+  <p style="font-size:80%;color:#666;margin:0"><month>February</month>
+  <day-of-month>20</day-of-month>, 
+                    <year>2006</year></p><p>High school students from Arlington, Dallas and DeSoto independent school districts and other schools participated in RoPro 2006, an annual robot programming contest for high school students sponsored by CSE. The challenging, fun event was held on the UTA campus Feb. 4.</p>
+  </div>
+  </div>
+  
+  <div class="news-item">
+  <div class="news-featured-left">
+  <a href="/news-highlights/2004-2012/2006-02-percom.php"><img alt="World's leading conference on pervasive computing sponsored by CSE, IEEE " class="floatleft" height="88" src="/_images/content/cseatutathumb.jpg" width="88"/></a>
+  </div>
+  <div class="news-featured-right">
+  <h3><a href="/news-highlights/2004-2012/2006-02-percom.php">World's leading conference on pervasive computing sponsored by CSE, IEEE </a></h3>
+  
+  <p style="font-size:80%;color:#666;margin:0"><month>February</month>
+  <day-of-month>15</day-of-month>, 
+                    <year>2006</year></p><p>One paragraph short description of story (NO HTML).</p>
+  </div>
+  </div>
+  
+  <div class="news-item">
+  <div class="news-featured-left">
+  <a href="/news-highlights/2004-2012/2006-01-hs-robot.php"><img alt="High School Students Converge on UTA for CSE Robot Competition " class="floatleft" height="88" src="/_images/content/cseatutathumb.jpg" width="88"/></a>
+  </div>
+  <div class="news-featured-right">
+  <h3><a href="/news-highlights/2004-2012/2006-01-hs-robot.php">High School Students Converge on UTA for CSE Robot Competition </a></h3>
+  
+  <p style="font-size:80%;color:#666;margin:0"><month>January</month>
+  <day-of-month>30</day-of-month>, 
+                    <year>2006</year></p><p>Students from DFW-area high schools will face off Saturday, Feb. 4, at the University of Texas at Arlington to see whose robot can navigate through a maze without direct control or find an object using vision and touch.</p>
+  </div>
+  </div>
+  
+  <div class="news-item">
+  <div class="news-featured-left">
+  <a href="/news-highlights/2004-2012/2005-12-hassan.php"><img alt="Talk by Dr. Mahbub Hassan of the University of New South Wales " class="floatleft" height="88" src="/_images/content/cseatutathumb.jpg" width="88"/></a>
+  </div>
+  <div class="news-featured-right">
+  <h3><a href="/news-highlights/2004-2012/2005-12-hassan.php">Talk by Dr. Mahbub Hassan of the University of New South Wales </a></h3>
+  
+  <p style="font-size:80%;color:#666;margin:0"><month>December</month>
+  <day-of-month>5</day-of-month>, 
+                    <year>2005</year></p><p>Mahbub Hassan is Associate Professor in the School of Computer Science and Engineering, University of New South Wales, Sydney, Australia, and a seconded Principal Researcher at National ICT Australia.</p>
+  </div>
+  </div>
+  
+  <div class="news-item">
+  <div class="news-featured-left">
+  <a href="/news-highlights/2004-2012/2005-11-acmicpccontest.php"><img alt="CSE &#xA9;UTA and LSU to co-host 2005 ACM South Central Regional Programming Contest " class="floatleft" height="88" src="/_images/content/cseatutathumb.jpg" width="88"/></a>
+  </div>
+  <div class="news-featured-right">
+  <h3><a href="/news-highlights/2004-2012/2005-11-acmicpccontest.php">CSE ©UTA and LSU to co-host 2005 ACM South Central Regional Programming Contest </a></h3>
+  
+  <p style="font-size:80%;color:#666;margin:0"><month>November</month>
+  <day-of-month>12</day-of-month>, 
+                    <year>2005</year></p><p>On Saturday, Nov. 12th the UTA Computer Science and Engineering Department will co-host the 2005 ACM South Central Regional Programming Contest with LSU. Approximately 24 teams from Texas and Oklahoma colleges and universities will converge on Nedderman Hall at the University of Texas at Arlington.</p>
+  </div>
+  </div>
+  
+  <div class="news-item">
+  <div class="news-featured-left">
+  <a href="/news-highlights/2004-2012/2005-11-iab-meeting.php"><img alt="Industry Advisory Board (IAB) meeting set for November 11, 2005 " class="floatleft" height="88" src="/_images/content/cseatutathumb.jpg" width="88"/></a>
+  </div>
+  <div class="news-featured-right">
+  <h3><a href="/news-highlights/2004-2012/2005-11-iab-meeting.php">Industry Advisory Board (IAB) meeting set for November 11, 2005 </a></h3>
+  
+  <p style="font-size:80%;color:#666;margin:0"><month>November</month>
+  <day-of-month>11</day-of-month>, 
+                    <year>2005</year></p><p>The IAB, comprised of almost 20 leading North Texas technology companies, advises the department on student curriculum, research and other matters. The board provides a broad range of support to the department and plays a critical role in ensuring that CSE graduates meet the needs of industry.</p>
+  </div>
+  </div>
+  
+  <div class="news-item">
+  <div class="news-featured-left">
+  <a href="/news-highlights/2004-2012/2005-11-data-mining-research.php"><img alt="New Funding Received for Graph-based Data Mining Research " class="floatleft" height="88" src="/_images/content/cseatutathumb.jpg" width="88"/></a>
+  </div>
+  <div class="news-featured-right">
+  <h3><a href="/news-highlights/2004-2012/2005-11-data-mining-research.php">New Funding Received for Graph-based Data Mining Research </a></h3>
+  
+  <p style="font-size:80%;color:#666;margin:0"><month>November</month>
+  <day-of-month>1</day-of-month>, 
+                    <year>2005</year></p><p>Professors Larry Holder and Diane Cook have received three grants totaling almost $800,000 to continue their pioneering work in graph-based data mining using the Subdue system.</p>
+  </div>
+  </div>
+  
+  <div class="news-item">
+  <div class="news-featured-left">
+  <a href="/news-highlights/2004-2012/2005-11-walker.php"><img alt="Leading Researcher Roger Walker Named Interim Chair Of Department of Computer Science and Engineering " class="floatleft" height="88" src="/_images/content/cseatutathumb.jpg" width="88"/></a>
+  </div>
+  <div class="news-featured-right">
+  <h3><a href="/news-highlights/2004-2012/2005-11-walker.php">Leading Researcher Roger Walker Named Interim Chair Of Department of Computer Science and Engineering </a></h3>
+  
+  <p style="font-size:80%;color:#666;margin:0"><month>November</month>
+  <day-of-month>1</day-of-month>, 
+                    <year>2005</year></p><p>Dr. Roger Walker, a leading research scientist at the University of Texas at Arlington, has been named interim chair of the Department of Computer Science and Engineering).</p>
+  </div>
+  </div>
+  
+  <div class="news-item">
+  <div class="news-featured-left">
+  <a href="/news-highlights/2004-2012/2005-10-mayo-iowa-mtr.php"><img alt="UTA, the Mayo Clinic and Iowa State University Collaborate on Medical Technology Research " class="floatleft" height="88" src="/_images/content/cseatutathumb.jpg" width="88"/></a>
+  </div>
+  <div class="news-featured-right">
+  <h3><a href="/news-highlights/2004-2012/2005-10-mayo-iowa-mtr.php">UTA, the Mayo Clinic and Iowa State University Collaborate on Medical Technology Research </a></h3>
+  
+  <p style="font-size:80%;color:#666;margin:0"><month>October</month>
+  <day-of-month>30</day-of-month>, 
+                    <year>2005</year></p><p>Professor JungHwan Oh is the lead investigator on a $579,000 grant funded by the National Science Foundation to develop new hardware and software to produce advanced endoscopy videos. </p>
+  </div>
+  </div>
+  
+  <div class="news-item">
+  <div class="news-featured-left">
+  <a href="/news-highlights/2004-2012/2005-10-percom-cse-uta-ieee.php"><img alt="PerCom Is Leading International Conference on Pervasive Computing " class="floatleft" height="88" src="/_images/content/cseatutathumb.jpg" width="88"/></a>
+  </div>
+  <div class="news-featured-right">
+  <h3><a href="/news-highlights/2004-2012/2005-10-percom-cse-uta-ieee.php">PerCom Is Leading International Conference on Pervasive Computing </a></h3>
+  
+  <p style="font-size:80%;color:#666;margin:0"><month>October</month>
+  <day-of-month>15</day-of-month>, 
+                    <year>2005</year></p><p>Computer scientists worldwide seeking current state-of-the-art research on pervasive computing and communications are turning to PerCom, the leading international conference on pervasive computing, which is sponsored by the Department of Computer Science and Engineering at UTA and IEEE.</p>
+  </div>
+  </div>
+  
+  <div class="news-item">
+  <div class="news-featured-left">
+  <a href="/news-highlights/2004-2012/2005-05-byrne-death.php"><img alt="Former CSE Faculty Member Eric Byrne Dies While on Himalayan Trek " class="floatleft" height="88" src="/_images/content/cseatutathumb.jpg" width="88"/></a>
+  </div>
+  <div class="news-featured-right">
+  <h3><a href="/news-highlights/2004-2012/2005-05-byrne-death.php">Former CSE Faculty Member Eric Byrne Dies While on Himalayan Trek </a></h3>
+  
+  <p style="font-size:80%;color:#666;margin:0"><month>May</month>
+  <day-of-month>10</day-of-month>, 
+                    <year>2005</year></p><p>Eric Byrne, a former faculty member in the Department of Computer Science and Engineering at UTA, died May 9 after being stricken with an illness while trekking in the Himalayas. He was 44.</p>
+  </div>
+  </div>
+  
+  <div class="news-item">
+  <div class="news-featured-left">
+  <a href="/news-highlights/2004-2012/2005-04-research-funding.php"><img alt="CSE Ranks No. 1 at UTA in New Research Funding " class="floatleft" height="88" src="/_images/content/cseatutathumb.jpg" width="88"/></a>
+  </div>
+  <div class="news-featured-right">
+  <h3><a href="/news-highlights/2004-2012/2005-04-research-funding.php">CSE Ranks No. 1 at UTA in New Research Funding </a></h3>
+  
+  <p style="font-size:80%;color:#666;margin:0"><month>April</month>
+  <day-of-month>15</day-of-month>, 
+                    <year>2005</year></p><p>The Department of Computer Science and Engineering ranked No. 1 in new research funding in 2004 among all UTA academic and non-academic departments, according to UTA's Office of Research.</p>
+  </div>
+  </div>
+  
+  <div class="news-item">
+  <div class="news-featured-left">
+  <a href="/news-highlights/2004-2012/2005-03-percom.php"><img alt="PerCom 2005 Meets in Hawaii; Sponsored by CSE " class="floatleft" height="88" src="/_images/content/cseatutathumb.jpg" width="88"/></a>
+  </div>
+  <div class="news-featured-right">
+  <h3><a href="/news-highlights/2004-2012/2005-03-percom.php">PerCom 2005 Meets in Hawaii; Sponsored by CSE </a></h3>
+  
+  <p style="font-size:80%;color:#666;margin:0"><month>March</month>
+  <day-of-month>15</day-of-month>, 
+                    <year>2005</year></p><p>More than 200 computer scientists and students attended the third annual IEEE International Conference on Pervasive Computing and Communications (PerCom), which is co-sponsored by the Department of Computer Science and Engineering at UTA, March 8-12 in Kauai, Hawaii.</p>
+  </div>
+  </div>
+  
+  <div class="news-item">
+  <div class="news-featured-left">
+  <a href="/news-highlights/2004-2012/2005-sabre.php"><img alt="Sabre Holdings Scholarships Announced " class="floatleft" height="88" src="/_images/content/cseatutathumb.jpg" width="88"/></a>
+  </div>
+  <div class="news-featured-right">
+  <h3><a href="/news-highlights/2004-2012/2005-sabre.php">Sabre Holdings Scholarships Announced </a></h3>
+  
+  <p style="font-size:80%;color:#666;margin:0"><month>February</month>
+  <day-of-month>2</day-of-month>, 
+                    <year>2005</year></p><p>Sabre Holdings Corp.'s annual scholarships for CSE students were announced at the Engineering Banquet during E-Week in February.</p>
+  </div>
+  </div>
+  
+  <div class="news-item">
+  <div class="news-featured-left">
+  <a href="/news-highlights/2004-2012/2005-01-security-research-institute.php"><img alt="Security Research Institute Receives $250,000 Funding " class="floatleft" height="88" src="/_images/content/cseatutathumb.jpg" width="88"/></a>
+  </div>
+  <div class="news-featured-right">
+  <h3><a href="/news-highlights/2004-2012/2005-01-security-research-institute.php">Security Research Institute Receives $250,000 Funding </a></h3>
+  
+  <p style="font-size:80%;color:#666;margin:0"><month>January</month>
+  <day-of-month>30</day-of-month>, 
+                    <year>2005</year></p><p>The Institute for Research in Security (IRIS) at the University of Texas at Arlington has received $250,000 in funding from the National Science Foundation to develop advanced security detection methods to monitor, prevent and recover from natural or inflicted disasters.</p>
+  </div>
+  </div>
+  
+<!--section 2 article-->
+</article>
+</section>
+ </div>
+<footer><div id="footer-extra"><a href="https://twitter.com/intent/follow?original_referer=http%3A%2F%2Fcse.uta.edu%2Fresearch%2Fcenters-labs.php&amp;screen_name=cseuta&amp;tw_p=followbutton"><img alt="Follow " src="../../_images/content/twitter.png" style="float: none; margin: 0 0 7px  5px;"/></a> <a href="https://www.facebook.com/groups/119117011465771/"><img alt="Facebook" height="30" src="../../_images/content/icon-facebook.png" style="float: none; margin: 0 0 7px  5px;" width="30"/></a> <a class="align-right" href="https://www.linkedin.com/groups?trk=myg_ugrp_ovr&amp;gid=4120776"> <img alt="Linked In" height="30" src="../../_images/content/icon-linkedin.png" style="float: none; margin: 0 0 7px 5px;" width="33"/></a><br/> <a href="../../faculty-resources.php">Faculty Resources</a></div>
+<div><img alt="The University of Texas at Arlington" height="73" src="../../_images/elements/uta_sm_logo.png" width="82"/>
+<p><strong>Department of Computer Science and Engineering</strong> <span class="print-only">[<a href="http://www.uta.edu/bioengineering">cse.uta.edu</a>]</span><br/> Engineering Research Building, Room 640, Box 19015, Arlington, TX 76010<br/> Phone: 817-272-3785 | Fax: 817-272-3784 <br/> <a href="http://www.uta.edu/"> &#169;  2015  The University of Texas at Arlington</a>.</p>
+</div>
+<div class="mobile-only">
+<div style="clear: both; margin: 10px auto 10px auto; width: 90%;"><a href="https://twitter.com/intent/follow?original_referer=http%3A%2F%2Fcse.uta.edu%2Fresearch%2Fcenters-labs.php&amp;screen_name=cseuta&amp;tw_p=followbutton"><img alt="Follow " src="../../_images/content/twitter.png" style="float: none; margin: 0 0 7px  5px;"/></a> <a href="https://www.facebook.com/groups/119117011465771/"><img alt="Facebook" height="30" src="../../_images/content/icon-facebook.png" style="float: none; margin: 0 0 7px  5px;" width="30"/></a> <a class="align-right" href="https://www.linkedin.com/groups?trk=myg_ugrp_ovr&amp;gid=4120776"> <img alt="Linked In" height="30" src="../../_images/content/icon-linkedin.png" style="float: none; margin: 0 0 7px 5px;" width="33"/></a><br/> <a href="../../faculty-resources.php">Faculty Resources</a></div>
+</div></footer>
+</div>
+</div>
+</body>
+</html>
